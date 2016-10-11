@@ -1,0 +1,132 @@
+8
+
+dir
+7
+http://geekward.svnrepository.com/svn/lifepointe/public/javascripts/tiny_mce/plugins/xhtmlxtras
+http://geekward.svnrepository.com/svn/lifepointe
+
+
+
+2007-06-18T01:46:21.284185Z
+7
+darkel
+
+
+svn:special svn:externals svn:needs-lock
+
+acronym.htm
+file
+
+
+
+
+2006-10-22T21:59:14.000000Z
+a8d072ad7e44ee78298ec971510a73fe
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+editor_plugin.js
+file
+
+
+
+
+2007-02-12T22:56:58.000000Z
+daaa145813209d905a8fdeddff23840a
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+ins.htm
+file
+
+
+
+
+2006-10-22T21:59:14.000000Z
+e54e92b748f7c9bdebe9432ccce26293
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+jscripts
+dir
+
+langs
+dir
+
+images
+dir
+
+editor_plugin_src.js
+file
+
+
+
+
+2007-02-12T22:56:58.000000Z
+157756fe4bb061a06b2e5777e6d0c913
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+css
+dir
+
+cite.htm
+file
+
+
+
+
+2006-10-22T21:59:14.000000Z
+a89d6899bc4b7cfd8a4ef6baa2ac98b1
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+del.htm
+file
+
+
+
+
+2006-10-22T21:59:14.000000Z
+5d7274b7186ac3ae866a18107f807285
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+abbr.htm
+file
+
+
+
+
+2006-10-22T21:59:14.000000Z
+4f4749a75328fcb3730217494dc168da
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+attributes.htm
+file
+
+
+
+
+2007-01-10T03:18:16.000000Z
+46a39c5b3ca4e2c02bdc2cf563d39df4
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+

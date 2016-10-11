@@ -1,0 +1,7 @@
+<h1 class="title"><%= @comic.title %></h1>
+<%= image_tag @comic.public_filename %>
+<br />
+<hr />
+<%= link_to(image_tag('prev.jpg'), members_webcomic_path(@comic.id - 1)) unless @comic.id == 1 %>
+<%= link_to image_tag('next.jpg'), members_webcomic_path((@comic.id + 1)) unless @comic.id >= Comic.count %>
+<hr />

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/church/!svn/ver/7/db/migrate
+END
+004_create_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/church/!svn/ver/7/db/migrate/004_create_posts.rb
+END
+005_create_galleries.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/church/!svn/ver/9/db/migrate/005_create_galleries.rb
+END
+001_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/church/!svn/ver/7/db/migrate/001_create_users.rb
+END
+006_create_photos.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/church/!svn/ver/9/db/migrate/006_create_photos.rb
+END
+002_create_avatars.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/church/!svn/ver/7/db/migrate/002_create_avatars.rb
+END
+003_create_details.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/church/!svn/ver/7/db/migrate/003_create_details.rb
+END

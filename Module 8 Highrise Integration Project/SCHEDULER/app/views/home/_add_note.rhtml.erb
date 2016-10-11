@@ -1,0 +1,49 @@
+<script>
+Ext.onReady(function() {
+ var addNote = new Ext.form.Form({
+     labelWidth: 75, 
+     url: "notes/create"
+ });     
+ addNote.add(
+     new Ext.form.TextArea({
+         fieldLabel: 'Add Note',
+         name: 'note[body]',
+         grow: true,
+         allowBlank:false,         
+         preventScrollbars:true
+     })
+ );
+ 
+ 
+ addNote.addButton('Save', function(){
+  addNote.submit({
+    reset: true,
+    params:{
+      action: "create",
+      "note[subject_type]": "Party",
+      "note[subject_id]": <%= subject_id %>
+    },
+    
+    failure: function(addNote, action){
+      Ext.MessageBox.alert('Error', action.result.data[0].responseMsg);
+    },
+    success: function(addNote, action){
+      Ext.MessageBox.alert('Confirm', action.result.info);
+    }                            
+  });
+});
+  addNote.render('add_note');
+}); 
+</script>
+
+<!--    <%# form_for :note, :url => {:controller => "notes", :action => "create"} do |n| %>
+    <fieldset>
+      <legend>Add A Note</legend>
+      <ol>
+        <li><label for="body">Add a Note:</label><%# n.text_area 'body' %></li>
+        <%# n.hidden_field :subject_type, :value => 'Party' %>        
+        <%# n.hidden_field :subject_id, :value => subject_id %>
+        <li><%# submit_tag 'Create', :class => 'submit' %></li>
+      </ol>
+    </fieldset>
+    <%# end %> -->

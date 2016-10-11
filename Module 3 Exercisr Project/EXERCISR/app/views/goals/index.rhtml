@@ -1,0 +1,16 @@
+<h1>Listing goals</h1> 
+
+<table> 
+  <tr><th>Name</th></tr> 
+   <%= render :partial => 'goal', :collection => @goals %> 
+</table> 
+
+<br /> 
+
+<h1>Add a New Goal</h1> 
+
+<div id="add_goal"> 
+  <% form_for(:goal, :url => goals_path, :html => {:id => 'new_goal'}) do |f| %> 
+    <%= render :partial => 'form', :locals => {:f => f} %> 
+  <% end %> 
+</div> 

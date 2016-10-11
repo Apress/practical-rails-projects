@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Method Missing Web Comic</title>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/2.2.0/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
+  <%= stylesheet_link_tag 'styles' %>
+</head>
+<body>
+  <% if admin? || member? %>
+    <div id="doc2" class="yui-t7">
+  <% else %>
+    <div id="doc2" class="yui-t4">
+  <% end %>
+
+    <div id="hd"><%= image_tag 'methodmissing.jpg' %></div>
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <% unless admin? || member? %>
+            <div class="yui-g"><%= image_tag 'topbanner.jpg' %></div>
+          <% end %>
+          
+          <div class="yui-g"><%= yield %> </div>
+        </div>
+      </div>
+			
+      <% unless admin? || member? %>
+        <div class="yui-b"><%= image_tag 'sidebanner.jpg' %></div>
+			<% end %>
+    </div>
+
+    <div id="ft"> &copy; Method Missing</div>
+  </div>
+</body>
+</html>

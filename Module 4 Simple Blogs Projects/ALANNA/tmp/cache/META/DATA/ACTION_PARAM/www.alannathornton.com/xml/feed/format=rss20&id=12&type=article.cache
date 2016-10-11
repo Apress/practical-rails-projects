@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/stylesheets/rss.css"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Alanna's Site: Pardon the Dust</title>
+    <link>http://www.alannathornton.com/articles/2006/11/25/pardon-the-dust</link>
+    <language>en-us</language>
+    <ttl>40</ttl>
+    <description></description>
+    <item>
+      <title>Pardon the Dust</title>
+      <description>&lt;p&gt;Sorry about the mess right now, We&amp;#8217;re finishing up a few last few things for the new site and it was easier for Al if she could access the site at the current domain name.&lt;/p&gt;
+
+
+	&lt;p&gt;&amp;#8212;Admin&lt;/p&gt;</description>
+      <pubDate>Sat, 25 Nov 2006 16:08:00 -0500</pubDate>
+      <guid isPermaLink="false">urn:uuid:60af38bb-b609-4613-819a-a192ba6b3f98</guid>
+      <author>Alanna</author>
+      <link>http://www.alannathornton.com/articles/2006/11/25/pardon-the-dust</link>
+    </item>
+    <item>
+      <title>"Pardon the Dust" by firmly1463@alannathornton.com</title>
+      <description>&lt;a href="mailto:firmly1463@alannathornton.com" rel="nofollow"&gt;firmly1463@alannathornton.com&lt;/a&gt;</description>
+      <pubDate>Fri, 26 Jan 2007 21:40:07 -0500</pubDate>
+      <guid isPermaLink="false">urn:uuid:f9caa79b-b028-4dc0-92e4-f1a3b43f09ba</guid>
+      <link>http://www.alannathornton.com/articles/2006/11/25/pardon-the-dust#comment-19</link>
+    </item>
+  </channel>
+</rss>

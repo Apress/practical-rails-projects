@@ -1,0 +1,9 @@
+<%= ext_layout('Edit Genre') %>
+
+<div id='content' class="ylayout-inactive-content">
+  <p>
+    <label for="genre_Name">Genre Name:</label>
+    <%= in_place_editor_field :genre, :TYPE %>
+  </p>
+  <%= button_to 'Back', genres_path, :method => :get %>	
+</div>

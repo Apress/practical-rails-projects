@@ -1,0 +1,49 @@
+<% unless @user.detail.headline.blank? %>
+    <h1 class="section_header">My Headline</h1>
+    <p><%= h @user.detail.headline %></p>
+<% end %>    
+
+<% unless @user.detail.about_me.blank? %>
+    <h1 class="section_header">About Me</h1>
+    <p><%= h @user.detail.about_me %></p>
+<% end %>    
+
+<% unless @user.detail.like_to_meet.blank? %>
+    <h1 class="section_header">Who I'd like to meet</h1>
+    <p><%= h @user.detail.like_to_meet %></p>
+<% end %>    
+
+<% unless @user.detail.interests.blank? %>
+    <h1 class="section_header">My Interests</h1>
+    <p><%= h @user.detail.interests %></p>
+<% end %>    
+
+<% unless @user.detail.music.blank? %>
+    <h1 class="section_header">Favorite Music</h1>
+    <p><%= h @user.detail.music %></p>
+<% end %>    
+
+<% unless @user.detail.movies.blank? %>
+    <h1 class="section_header">Favorite Movies</h1>
+    <p><%= h @user.detail.movies %></p>
+<% end %>    
+
+<% unless @user.detail.television.blank? %>
+    <h1 class="section_header">Favorite Television</h1>
+    <p><%= h @user.detail.television %></p>
+<% end %>    
+
+<% unless @user.detail.books.blank? %>
+    <h1 class="section_header">Favorite Books</h1>
+    <p><%= h @user.detail.books %></p>
+<% end %>    
+
+<% content_for :sidebar do %>
+	<div class='about'>
+  	<h1 class="section_header"><%= h @user.name %></h1>
+  	<p><%= h @user.street %></p>
+  	<p><%= h @user.city %>, <%= h @user.state %></p>
+  	<p>Birthday: <%= h @user.birthday.to_s %></p>
+  	<p><%= link_to '[Learn More About Me]', showprofile_path(:user => @user.login) %></p>	
+  </div>
+<% end %>

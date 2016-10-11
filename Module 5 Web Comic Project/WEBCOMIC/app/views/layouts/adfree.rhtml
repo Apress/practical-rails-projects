@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>WebComic</title>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/2.2.0/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
+  <%= stylesheet_link_tag 'styles' %>
+</head>
+<body>
+  <div id="doc2" class="yui-t7">
+    <div id="hd"><%= image_tag 'methodmissing.jpg' %></div>
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g"> <%= yield %> </div>
+        </div>
+      </div>
+    </div>
+    <div id="ft"> &copy; Method Missing</div>
+  </div>
+</body>
+</html>
+

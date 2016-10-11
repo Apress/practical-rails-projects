@@ -1,0 +1,21 @@
+<h1 class="section_header">Galleries<h1>
+<% @galleries.in_groups_of(3, false) do |galleries| %>
+<ul class="thumbnails">
+    <% for gallery in galleries %>
+        <% unless gallery.photos.count == 0 %>
+            <li class="thumb">
+                <%= link_to image_tag(gallery.photos.first.public_filename(:thumb)) + '<br />' + gallery.name + '<br />' +
+                     pluralize(gallery.photos.count, 'Photo'), gallery_path(:user => 'ealameda', :id => gallery.id)  %> 
+            </li>        
+        <% else %>
+            <li class="thumb">
+                <%= link_to gallery.name + '<br />' + pluralize(gallery.photos.count, 'Photo'), gallery_path(:user => 'ealameda', :id => gallery.id)  %> 
+            </li>
+        <% end %>
+    <% end %>
+</ul>
+<% end %>
+<br />
+<% content_for :sidebar do %>
+<p><%= link_to 'Create New Gallery', new_gallery_path %></p>
+<% end %>

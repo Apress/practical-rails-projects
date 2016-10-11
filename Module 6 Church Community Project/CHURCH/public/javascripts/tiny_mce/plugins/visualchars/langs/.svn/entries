@@ -1,0 +1,29 @@
+8
+
+dir
+7
+http://geekward.svnrepository.com/svn/lifepointe/public/javascripts/tiny_mce/plugins/visualchars/langs
+http://geekward.svnrepository.com/svn/lifepointe
+
+
+
+2007-06-18T01:46:21.284185Z
+7
+darkel
+
+
+svn:special svn:externals svn:needs-lock
+
+en.js
+file
+
+
+
+
+2006-08-11T23:04:24.000000Z
+cbcb3aeb33ecbab7ad299a34eee2ef3d
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+

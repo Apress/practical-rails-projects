@@ -1,0 +1,17 @@
+<p> 
+  <b>Exercise:</b> 
+  <%=h @activity.exercise.name %> 
+</p> 
+
+<p> 
+  <b>Resistance:</b> 
+  <%=h @activity.resistance %> 
+</p> 
+
+<p> 
+  <b>Repetitions:</b> 
+  <%=h @activity.repetitions %> 
+</p> 
+
+<%= link_to 'Edit', edit_activity_path(@workout, @activity) %> | 
+<%= link_to 'Back', activities_path(@workout) %> 

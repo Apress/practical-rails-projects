@@ -1,0 +1,64 @@
+8
+
+dir
+7
+http://geekward.svnrepository.com/svn/church/app/views/welcome
+http://geekward.svnrepository.com/svn/church
+
+
+
+2007-06-24T09:31:29.564056Z
+7
+darkel
+
+
+svn:special svn:externals svn:needs-lock
+
+about.rhtml
+file
+
+
+
+
+2007-06-24T07:08:47.000000Z
+f939eaa64dd05ebf9142310bb2e8e98e
+2007-06-24T09:31:29.564056Z
+7
+darkel
+
+directory.rhtml
+file
+
+
+
+
+2007-06-24T07:08:47.000000Z
+550e850a151e9f9941bc425ecf584755
+2007-06-24T09:31:29.564056Z
+7
+darkel
+
+search.rhtml
+file
+
+
+
+
+2007-06-24T07:08:47.000000Z
+867724c45438cb286a80c61b4234c130
+2007-06-24T09:31:29.564056Z
+7
+darkel
+
+index.rhtml
+file
+
+
+
+
+2007-06-24T07:14:26.000000Z
+a34b821d7e197db3ef2128e008328aea
+2007-06-24T09:31:29.564056Z
+7
+darkel
+

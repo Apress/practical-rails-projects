@@ -1,0 +1,48 @@
+<h1 class="section_header">View Photo<h1>
+<%= image_tag @photo.public_filename %>
+
+<% if @photo.comments.any? %>
+  <div id ="comments">
+    <h1 class="section_header">Comments</h1>
+    <ol id="comment-list">
+      <% for comment in @photo.comments %>
+        <% user = comment.user %>
+        <li>
+          <div class="comment-head">
+            <div class="comment-author-details">
+              <h3><div class="user-img"><%= link_to(image_tag(user.small_avatar), showuser_path(:user => user)) %></div>
+                <%= link_to user.name, showuser_path(:user => user) %> posted</h3> 
+            </div>    
+          </div>
+
+          <div class="comment-body">
+            <div class="comment-body-paragraph"><p><%= comment.comment %></p></div>
+          </div>
+          <p class="comment-link small"><em>&nbsp;</em></p>
+        </li>
+      <% end %>
+    </ol>        
+  </div>
+<% end %>
+
+<div id="comment_form">
+  <h1 class="section_header">Post a Comment</h1>
+  <% form_for :comment, :url => addcomment_post_path  do |c| %>    
+    <p>
+      <label for "comment_body">Comment:</label><br />
+      <%= c.text_area 'comment', "cols" => 70, "rows" => 5 %>
+      <%= c.hidden_field 'user_id', :value => current_user.id %>
+    </p>
+    <p>
+      <%= submit_tag 'Add Comment' %> 
+    </p>
+  <% end %>
+</div>
+
+<% content_for :sidebar do %>
+  <%= @photo.description %>
+  <% if show_admin_menu %>
+    <h1 class="section_header">Photo Admin<h1>
+    <%= link_to "Delete Photo", photo_path(:user => @user.login, :id => @photo), :confirm => 'Are you sure?', :method => :delete %>
+  <% end %>
+<% end %>

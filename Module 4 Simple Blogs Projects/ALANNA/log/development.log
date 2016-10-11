@@ -1,0 +1,511 @@
+allow_concurrency=true
+Defined connections: {"ActiveRecord::Base"=>#<ActiveRecord::Base::ConnectionSpecification:0x179e764 @config={:adapter=>"mysql", :password=>nil, :host=>"localhost", :username=>"root", :database=>"alanna"}, @adapter_method="mysql_connection">}
+Active connections: {}
+Active connection name: ActiveRecord::Base
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2007-11-07 22:44:05) [GET]
+  Parameters: {"action"=>"index", "controller"=>"articles"}
+
+
+Errno::ENOENT (No such file or directory - /tmp/mysql.sock):
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:104:in `initialize'
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:104:in `real_connect'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:330:in `connect'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:87:in `initialize'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:36:in `mysql_connection'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:251:in `connection_without_query_cache='
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:54:in `connection='
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:220:in `retrieve_connection'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    /vendor/rails/activerecord/lib/active_record/base.rb:1046:in `add_limit!'
+    /vendor/rails/activerecord/lib/active_record/base.rb:1017:in `construct_finder_sql'
+    /vendor/rails/activerecord/lib/active_record/base.rb:924:in `find_every'
+    /vendor/rails/activerecord/lib/active_record/base.rb:918:in `find_initial'
+    /vendor/rails/activerecord/lib/active_record/base.rb:380:in `find'
+    /app/models/blog.rb:115:in `default'
+    /app/controllers/application.rb:40:in `get_the_blog_object'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:399:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:394:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:383:in `before_action'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:365:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:69:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:82:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:408:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:377:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:117:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:38:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /usr/local/bin/mongrel_rails:16
+
+
+Rendering /Users/darkel/Desktop/Archive/alanna/config/../vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+allow_concurrency=true
+Defined connections: {"ActiveRecord::Base"=>#<ActiveRecord::Base::ConnectionSpecification:0x179e764 @config={:adapter=>"mysql", :password=>nil, :host=>"localhost", :username=>"root", :database=>"alanna"}, @adapter_method="mysql_connection">}
+Active connections: {}
+Active connection name: ActiveRecord::Base
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2007-11-07 22:47:40) [GET]
+  Parameters: {"action"=>"index", "controller"=>"articles"}
+  [4;36;1mBlog Load (0.091705)[0m   [0;1mSELECT * FROM blogs ORDER BY id LIMIT 1[0m
+  [4;35;1mTrigger Load (0.030101)[0m   [0mSELECT * FROM triggers WHERE (due_at <= '2007-11-07 22:47:40') [0m
+  [4;36;1mUser Columns (0.028955)[0m   [0;1mSHOW FIELDS FROM users[0m
+  [4;35;1mSQL (0.000668)[0m   [0mSELECT count(*) AS count_all FROM users [0m
+  [4;36;1mBlog Columns (0.002177)[0m   [0;1mSHOW FIELDS FROM blogs[0m
+Redirected to http://localhost:3000/admin/general/redirect
+Completed in 0.27133 (3 reqs/sec) | DB: 0.15361 (56%) | 302 Found [http://localhost/]
+
+
+Processing GeneralController#redirect (for 127.0.0.1 at 2007-11-07 22:47:40) [GET]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {"action"=>"redirect", "controller"=>"admin/general"}
+  [4;35;1mBlog Load (0.000466)[0m   [0mSELECT * FROM blogs ORDER BY id LIMIT 1[0m
+  [4;36;1mTrigger Load (0.000656)[0m   [0;1mSELECT * FROM triggers WHERE (due_at <= '2007-11-07 22:47:40') [0m
+Redirected to http://localhost:3000/accounts/login
+Filter chain halted as [login_required] returned false
+Completed in 0.00379 (263 reqs/sec) | DB: 0.00112 (29%) | 302 Found [http://localhost/admin/general/redirect]
+
+
+Processing Base#index (for 127.0.0.1 at 2007-11-07 22:47:40) [GET]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {}
+
+
+Mysql::Error (Lost connection to MySQL server during query):
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1112:in `write'
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1162:in `finalizer'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:125:in `index_name'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:106:in `next_segment'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:153:in `recognition_check'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:160:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:132:in `continue'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:99:in `move_forward'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:92:in `if_next_matches'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:79:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:132:in `continue'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:99:in `move_forward'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:92:in `if_next_matches'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:79:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:380:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:532:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:636:in `each'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:530:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:529:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:631:in `draw'
+    /config/routes.rb:1
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:140:in `load'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:608:in `reload'
+    /vendor/rails/railties/lib/dispatcher.rb:67:in `prepare_application'
+    /vendor/rails/railties/lib/dispatcher.rb:37:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /usr/local/bin/mongrel_rails:16
+
+
+Rendering /Users/darkel/Desktop/Archive/alanna/config/../vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing AccountsController#login (for 127.0.0.1 at 2007-11-07 22:47:50) [GET]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {"action"=>"login", "controller"=>"accounts"}
+  [4;35;1mBlog Load (0.000324)[0m   [0mSELECT * FROM blogs ORDER BY id LIMIT 1[0m
+  [4;36;1mTrigger Load (0.000453)[0m   [0;1mSELECT * FROM triggers WHERE (due_at <= '2007-11-07 22:47:50') [0m
+  [4;35;1mUser Columns (0.002233)[0m   [0mSHOW FIELDS FROM users[0m
+  [4;36;1mSQL (0.000309)[0m   [0;1mSELECT count(*) AS count_all FROM users [0m
+Rendering  within layouts/accounts
+Rendering accounts/login
+Completed in 0.04735 (21 reqs/sec) | Rendering: 0.03827 (80%) | DB: 0.00332 (7%) | 200 OK [http://localhost/accounts/login]
+
+
+Processing Base#index (for 127.0.0.1 at 2007-11-07 22:48:01) [POST]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {"user_login"=>"abt_admin", "user_password"=>"iloveeldon", "login"=>"Login »"}
+
+
+Mysql::Error (Lost connection to MySQL server during query):
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1112:in `write'
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1162:in `finalizer'
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1112:in `matches_controller?'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:586:in `categorize_routes'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:636:in `each'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:585:in `categorize_routes'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:583:in `categorize_routes'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:483:in `write_generation'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:630:in `draw'
+    /config/routes.rb:1
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:140:in `load'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:608:in `reload'
+    /vendor/rails/railties/lib/dispatcher.rb:67:in `prepare_application'
+    /vendor/rails/railties/lib/dispatcher.rb:37:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /usr/local/bin/mongrel_rails:16
+
+
+Rendering /Users/darkel/Desktop/Archive/alanna/config/../vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing AccountsController#login (for 127.0.0.1 at 2007-11-07 22:48:06) [POST]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {"user_login"=>"abt_admin", "action"=>"login", "controller"=>"accounts", "user_password"=>"iloveeldon", "login"=>"Login »"}
+  [4;35;1mBlog Load (0.000317)[0m   [0mSELECT * FROM blogs ORDER BY id LIMIT 1[0m
+  [4;36;1mTrigger Load (0.000445)[0m   [0;1mSELECT * FROM triggers WHERE (due_at <= '2007-11-07 22:48:06') [0m
+  [4;35;1mUser Columns (0.012518)[0m   [0mSHOW FIELDS FROM users[0m
+  [4;36;1mSQL (0.000468)[0m   [0;1mSELECT count(*) AS count_all FROM users [0m
+  [4;35;1mUser Load (0.001128)[0m   [0mSELECT * FROM users WHERE (login = 'abt_admin' AND password = '9d6f44f2a49d358bc0b900af2a8864124556d447') LIMIT 1[0m
+Rendering  within layouts/accounts
+Rendering accounts/login
+Completed in 0.02320 (43 reqs/sec) | Rendering: 0.00157 (6%) | DB: 0.01488 (64%) | 200 OK [http://localhost/accounts/login]
+
+
+Processing Base#index (for 127.0.0.1 at 2007-11-07 22:48:11) [POST]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {"user_login"=>"eldon", "user_password"=>"test", "login"=>"Login »"}
+
+
+Mysql::Error (Lost connection to MySQL server during query):
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1112:in `write'
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1162:in `finalizer'
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1112:in `result'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:176:in `assign_result'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:161:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:155:in `recognition_check'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:155:in `recognition_check'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:160:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:132:in `continue'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:99:in `move_forward'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:92:in `if_next_matches'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:79:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:132:in `continue'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:99:in `move_forward'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:92:in `if_next_matches'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:79:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:132:in `continue'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:99:in `move_forward'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:92:in `if_next_matches'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:79:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:380:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:532:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:636:in `each'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:530:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:529:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:631:in `draw'
+    /config/routes.rb:1
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:140:in `load'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:608:in `reload'
+    /vendor/rails/railties/lib/dispatcher.rb:67:in `prepare_application'
+    /vendor/rails/railties/lib/dispatcher.rb:37:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /usr/local/bin/mongrel_rails:16
+
+
+Rendering /Users/darkel/Desktop/Archive/alanna/config/../vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing AccountsController#login (for 127.0.0.1 at 2007-11-07 22:48:16) [POST]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {"user_login"=>"eldon", "action"=>"login", "controller"=>"accounts", "user_password"=>"test", "login"=>"Login »"}
+  [4;36;1mBlog Load (0.000321)[0m   [0;1mSELECT * FROM blogs ORDER BY id LIMIT 1[0m
+  [4;35;1mTrigger Load (0.000442)[0m   [0mSELECT * FROM triggers WHERE (due_at <= '2007-11-07 22:48:16') [0m
+  [4;36;1mUser Columns (0.012759)[0m   [0;1mSHOW FIELDS FROM users[0m
+  [4;35;1mSQL (0.000497)[0m   [0mSELECT count(*) AS count_all FROM users [0m
+  [4;36;1mUser Load (0.001045)[0m   [0;1mSELECT * FROM users WHERE (login = 'eldon' AND password = '83e562309be97b4d013526bf7b1cf0a38161b6aa') LIMIT 1[0m
+Rendering  within layouts/accounts
+Rendering accounts/login
+Completed in 0.02352 (42 reqs/sec) | Rendering: 0.00161 (6%) | DB: 0.01506 (64%) | 200 OK [http://localhost/accounts/login]
+allow_concurrency=true
+Defined connections: {"ActiveRecord::Base"=>#<ActiveRecord::Base::ConnectionSpecification:0x19b40d0 @adapter_method="mysql_connection", @config={:password=>nil, :username=>"root", :database=>"alanna", :host=>"localhost", :adapter=>"mysql"}>}
+Active connections: {}
+Active connection name: ActiveRecord::Base
+  [4;36;1mUser Load (0.000891)[0m   [0;1mSELECT * FROM users [0m
+allow_concurrency=true
+Defined connections: {"ActiveRecord::Base"=>#<ActiveRecord::Base::ConnectionSpecification:0x179e764 @config={:adapter=>"mysql", :password=>nil, :host=>"localhost", :username=>"root", :database=>"alanna"}, @adapter_method="mysql_connection">}
+Active connections: {}
+Active connection name: ActiveRecord::Base
+
+
+Processing AccountsController#login (for 127.0.0.1 at 2007-11-07 22:48:52) [POST]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {"user_login"=>"ealameda", "action"=>"login", "controller"=>"accounts", "user_password"=>"test", "login"=>"Login »"}
+  [4;36;1mBlog Load (0.000465)[0m   [0;1mSELECT * FROM blogs ORDER BY id LIMIT 1[0m
+  [4;35;1mTrigger Load (0.000647)[0m   [0mSELECT * FROM triggers WHERE (due_at <= '2007-11-07 22:48:52') [0m
+  [4;36;1mUser Columns (0.002314)[0m   [0;1mSHOW FIELDS FROM users[0m
+  [4;35;1mSQL (0.000307)[0m   [0mSELECT count(*) AS count_all FROM users [0m
+  [4;36;1mUser Load (0.000713)[0m   [0;1mSELECT * FROM users WHERE (login = 'ealameda' AND password = '83e562309be97b4d013526bf7b1cf0a38161b6aa') LIMIT 1[0m
+Rendering  within layouts/accounts
+Rendering accounts/login
+Completed in 0.01582 (63 reqs/sec) | Rendering: 0.00288 (18%) | DB: 0.00445 (28%) | 200 OK [http://localhost/accounts/login]
+
+
+Processing AccountsController#login (for 127.0.0.1 at 2007-11-07 22:48:56) [POST]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {"user_login"=>"ealameda", "action"=>"login", "controller"=>"accounts", "user_password"=>"passion", "login"=>"Login »"}
+  [4;35;1mBlog Load (0.000336)[0m   [0mSELECT * FROM blogs ORDER BY id LIMIT 1[0m
+  [4;36;1mTrigger Load (0.000435)[0m   [0;1mSELECT * FROM triggers WHERE (due_at <= '2007-11-07 22:48:56') [0m
+  [4;35;1mUser Columns (0.013418)[0m   [0mSHOW FIELDS FROM users[0m
+  [4;36;1mSQL (0.000626)[0m   [0;1mSELECT count(*) AS count_all FROM users [0m
+  [4;35;1mUser Load (0.001154)[0m   [0mSELECT * FROM users WHERE (login = 'ealameda' AND password = '41508f3b35f719a28ff91871a8c40033bb55880a') LIMIT 1[0m
+Cookie set: is_admin=yes; path=/
+Redirected to http://localhost:3000/admin/general/redirect
+Completed in 0.02314 (43 reqs/sec) | DB: 0.01597 (69%) | 302 Found [http://localhost/accounts/login]
+
+
+Processing Base#index (for 127.0.0.1 at 2007-11-07 22:48:56) [GET]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {}
+
+
+Mysql::Error (Lost connection to MySQL server during query):
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1112:in `write'
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1162:in `finalizer'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:68:in `dup'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:66:in `dup'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:155:in `recognition_check'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:160:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:132:in `continue'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:161:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:177:in `assign_result'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:99:in `move_forward'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:177:in `assign_result'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:161:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:155:in `recognition_check'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:155:in `recognition_check'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:160:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:132:in `continue'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:161:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:177:in `assign_result'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:99:in `move_forward'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:177:in `assign_result'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:161:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:155:in `recognition_check'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:155:in `recognition_check'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:160:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:132:in `continue'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:99:in `move_forward'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:92:in `if_next_matches'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:79:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:380:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:532:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:636:in `each'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:530:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:529:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:631:in `draw'
+    /config/routes.rb:1
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:140:in `load'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:608:in `reload'
+    /vendor/rails/railties/lib/dispatcher.rb:67:in `prepare_application'
+    /vendor/rails/railties/lib/dispatcher.rb:37:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /usr/local/bin/mongrel_rails:16
+
+
+  [4;36;1mUser Columns (0.012546)[0m   [0;1mSHOW FIELDS FROM users[0m
+Rendering /Users/darkel/Desktop/Archive/alanna/config/../vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GeneralController#redirect (for 127.0.0.1 at 2007-11-07 22:48:58) [GET]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {"action"=>"redirect", "controller"=>"admin/general"}
+  [4;35;1mBlog Load (0.000360)[0m   [0mSELECT * FROM blogs ORDER BY id LIMIT 1[0m
+  [4;36;1mTrigger Load (0.000462)[0m   [0;1mSELECT * FROM triggers WHERE (due_at <= '2007-11-07 22:48:58') [0m
+  [4;35;1mSQL (0.042329)[0m   [0mSELECT version FROM schema_info[0m
+Redirected to http://localhost:3000/admin
+Completed in 0.07161 (13 reqs/sec) | DB: 0.04315 (60%) | 302 Found [http://localhost/admin/general/redirect]
+
+
+Processing Base#index (for 127.0.0.1 at 2007-11-07 22:48:58) [GET]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {}
+
+
+Mysql::Error (Lost connection to MySQL server during query):
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1112:in `write'
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1162:in `finalizer'
+    /vendor/rails/activerecord/lib/active_record/vendor/mysql.rb:1112:in `continue'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:161:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:177:in `assign_result'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:99:in `move_forward'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:177:in `assign_result'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:161:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:155:in `recognition_check'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:155:in `recognition_check'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:160:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:132:in `continue'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:99:in `move_forward'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:80:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:92:in `if_next_matches'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:79:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:136:in `go'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:380:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:532:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:636:in `each'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:530:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:19:in `indent'
+    /vendor/rails/actionpack/lib/action_controller/code_generation.rb:46:in `method_missing'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:529:in `write_recognition'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:631:in `draw'
+    /config/routes.rb:1
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:140:in `load'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:608:in `reload'
+    /vendor/rails/railties/lib/dispatcher.rb:67:in `prepare_application'
+    /vendor/rails/railties/lib/dispatcher.rb:37:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /usr/local/bin/mongrel_rails:16
+
+
+  [4;36;1mUser Columns (0.012187)[0m   [0;1mSHOW FIELDS FROM users[0m
+Rendering /Users/darkel/Desktop/Archive/alanna/config/../vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GeneralController#index (for 127.0.0.1 at 2007-11-07 22:49:00) [GET]
+  Session ID: aa51b842f08640308c741ffe1561aaca
+  Parameters: {"action"=>"index", "controller"=>"admin/general"}
+  [4;35;1mBlog Load (0.000313)[0m   [0mSELECT * FROM blogs ORDER BY id LIMIT 1[0m
+  [4;36;1mTrigger Load (0.000428)[0m   [0;1mSELECT * FROM triggers WHERE (due_at <= '2007-11-07 22:49:00') [0m
+  [4;35;1mSQL (0.000269)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mBlog Columns (0.011714)[0m   [0;1mSHOW FIELDS FROM blogs[0m
+  [4;35;1mSQL (0.000225)[0m   [0mBEGIN[0m
+  [4;36;1mBlog Update (0.000405)[0m   [0;1mUPDATE blogs SET `settings` = '--- \ncanonical_server_url: http://localhost:3000/\n' WHERE id = 1[0m
+  [4;35;1mSQL (0.000644)[0m   [0mCOMMIT[0m
+  [4;36;1mPageCache Columns (0.045431)[0m   [0;1mSHOW FIELDS FROM page_caches[0m
+  [4;35;1mSQL (0.000447)[0m   [0mSELECT count(*) AS count_all FROM page_caches [0m
+Rendering  within layouts/administration
+Rendering admin/general/index

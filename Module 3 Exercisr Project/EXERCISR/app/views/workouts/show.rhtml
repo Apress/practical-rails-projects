@@ -1,0 +1,14 @@
+<h1><%= h @workout.label %> Workout on <%= h @workout.date.to_s(:long) %> </h1> 
+
+<table> 
+   <tr><th>Exercise</th><th>Reps</th><th>Resistance</th></tr> 
+   <%= render :partial => 'activities/activity', :collection => @activities %> 
+</table> 
+
+<h3>Add Exercise to this Workout</h3> 
+
+<% form_for(:activity, :url => activities_path(@workout)) do |f| %> 
+   <%= render :partial => 'activities/form', :locals => {:f => f} %> 
+<% end %> 
+
+<%= link_to 'Back', workouts_path %> 

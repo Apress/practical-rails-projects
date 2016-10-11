@@ -1,0 +1,17 @@
+<h1 class="section_header">Login Form</h1>
+<% form_tag sessions_path do -%>
+    <p><label for="login">Login</label><br/>
+    <%= text_field_tag 'login' %></p>
+
+    <p><label for="password">Password</label><br/>
+    <%= password_field_tag 'password' %></p>
+
+    <p><%= submit_tag 'Log in' %></p>
+<% end -%>
+
+
+<% content_for :sidebar do %>
+    <h1 class="section_header">Welcome to Church Family</h1>
+	<p>This is a family site for members of the local Church. In order to access the content within you'll need to login via the form on the left</p>
+	<p>If for some reason you can't remember your login information, please email receptionist@mychurch.com</p>
+<% end %>

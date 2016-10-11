@@ -1,0 +1,10 @@
+<h1>Editing goal</h1>
+
+<%= error_messages_for :goal %> 
+
+<% form_for(:goal, :url => goal_path(@goal), :html => { :method => :put }) do |f| %> 
+  <%= render :partial => 'form', :locals => {:f => f} %> 
+<% end %> 
+
+<%= link_to 'Show', goal_path(@goal) %> | 
+<%= link_to 'Back', goals_path %> 

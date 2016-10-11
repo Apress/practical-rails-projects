@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/church/!svn/ver/7/app/views/profile
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/church/!svn/ver/7/app/views/profile/show.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/church/!svn/ver/7/app/views/profile/edit.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/church/!svn/ver/9/app/views/profile/index.rhtml
+END

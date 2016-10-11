@@ -1,0 +1,29 @@
+#hd { border-bottom: 5px solid black; border-left: 1px solid black; border-right: 1px solid black; }
+#hd a { margin: 20px; padding-top: 10px; color: white; font-size: 189%; }
+#bd { background: url(/images/bg.gif); }
+#hd h1 img { z-index: 10; }
+#ft { border-top: 5px solid black; border-left: 1px solid black; border-right: 1px solid black; }
+h1, h2 { font-size: 152%; }
+h3 { font-size: 122%; margin-top: 12px;}
+ul { list-style-type: none; margin-left: 5px; margin-right: 5px; }
+li { margin-bottom: 3px; padding-bottom: 3px; border-bottom: 1px dotted #999; }
+p { font-size: 100%; padding-bottom: 5px; }
+a:link, a:visited { text-decoration: none; color: #000; font-weight: bold; }
+.sidebar a:link, .sidebar a:visited { text-decoration: none; color: #FFF; font-weight: bold; }
+.sidebar a:hover, a:active { background-color: #ccc; }
+div.small { text-align: center; }
+.grad img { height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; z-index: 0; }
+.box2 { float: left; position: relative; width: 165px; }
+.box2 * { margin: 0px; position: relative; z-index: 1; }
+.box { float: left; margin: 1px; position: relative; width: 100%; height: 50px; padding: 5px; }
+.box * { margin: 0px; position: relative; z-index: 1; }
+* html .grad { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/images/grad_white.png', sizingMethod='scale'); }
+* html .grad img { display: none; }
+* html .box { position: static; }
+.blue { background-color: #2382a1; }
+.green { background-color: #4be22d; }
+.pink { background-color: #ff009d; }
+table { width: 35%;}
+th {font-weight: bold;}
+</style> <!--[if IE 7]> <style type="text/css"> .box { height: 2.5em; }
+</style> <![endif]-->

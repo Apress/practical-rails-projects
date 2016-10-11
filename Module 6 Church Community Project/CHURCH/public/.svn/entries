@@ -1,0 +1,169 @@
+8
+
+dir
+1
+http://geekward.svnrepository.com/svn/church/public
+http://geekward.svnrepository.com/svn/church
+
+
+
+2007-06-23T17:51:52.495027Z
+1
+darkel
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e3e3886a-9633-0410-bd3a-ff29a20658b4
+
+robots.txt
+file
+
+
+
+
+2007-06-23T17:51:52.000000Z
+a9d8217ec04c304aba7926ae1f066973
+2007-06-23T17:51:52.495027Z
+1
+darkel
+
+javascripts
+dir
+
+favicon.ico
+file
+
+
+
+
+2007-06-23T17:51:52.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2007-06-23T17:51:52.495027Z
+1
+darkel
+
+dispatch.cgi
+file
+
+
+
+
+2007-06-23T17:51:52.000000Z
+c90fe303c91b4b6e5232e9351f5646e2
+2007-06-23T17:51:52.495027Z
+1
+darkel
+has-props
+
+dispatch.rb
+file
+
+
+
+
+2007-06-23T17:51:52.000000Z
+c90fe303c91b4b6e5232e9351f5646e2
+2007-06-23T17:51:52.495027Z
+1
+darkel
+has-props
+
+avatars
+dir
+
+images
+dir
+
+dispatch.fcgi
+file
+
+
+
+
+2007-06-23T17:51:52.000000Z
+84228cf80b90c3c335bfb9f679e59351
+2007-06-23T17:51:52.495027Z
+1
+darkel
+has-props
+
+500.html
+file
+
+
+
+
+2007-06-23T17:51:52.000000Z
+8e19fd3c53aec78af1087378d5367833
+2007-06-23T17:51:52.495027Z
+1
+darkel
+
+404.html
+file
+
+
+
+
+2007-06-23T17:51:52.000000Z
+adc851c2e0698b5d05ef0380ed69f6b9
+2007-06-23T17:51:52.495027Z
+1
+darkel
+
+index.html
+file
+7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleted
+
+.htaccess
+file
+
+
+
+
+2007-06-23T17:51:52.000000Z
+eebf5d1e0a663f298d77013224f03e4f
+2007-06-23T17:51:52.495027Z
+1
+darkel
+
+photo_thumbs
+dir
+
+stylesheets
+dir
+
+photos
+dir
+

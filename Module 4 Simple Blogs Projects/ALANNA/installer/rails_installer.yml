@@ -1,0 +1,6 @@
+--- 
+rails-environment: production
+threads: 2
+port-number: 4001
+web-server: mongrel
+database: sqlite

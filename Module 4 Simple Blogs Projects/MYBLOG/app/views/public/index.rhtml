@@ -1,0 +1,7 @@
+<% for post in @posts %>
+	<h3><%= link_to post.title, post_path(post) %></h3>
+  <p><%= post.body %></p>
+  <hr />
+<% end %>
+
+<%= will_paginate @posts %>

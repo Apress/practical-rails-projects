@@ -1,0 +1,13 @@
+<%= ext_layout('Edit Developer') %>
+
+<div id='content' class="ylayout-inactive-content">
+  <p>
+    <label for="developer_Name">Company Name:</label>
+    <%= in_place_editor_field :developer, :Name %>
+  </p>
+  <p>
+    <label for="developer_URL">Developers Home Page:</label>
+    <%= in_place_editor_field :developer, :URL %>
+  </p>
+  <%= button_to 'Back', developers_path, :method => :get %>	
+</div>

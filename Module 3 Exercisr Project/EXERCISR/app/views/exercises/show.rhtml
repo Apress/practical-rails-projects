@@ -1,0 +1,11 @@
+<p>
+  <b>Name:</b>
+  <%=h @exercise.name %>
+</p>
+
+<p>
+  <%= ziya_chart( formatted_exercise_path(@exercise, :swf), :id => 'my_chart', :bgcolor => "transparent", :width => 400, :height => 250, :align => 'center') %>
+</p>
+
+
+<%= link_to 'Back', exercises_path %>

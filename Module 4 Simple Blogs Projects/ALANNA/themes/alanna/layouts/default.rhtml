@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<head>
+  <title><%=h page_title %></title>
+  <%= page_header %>
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.2.2/build/reset-font-grids/reset-fonts-grids.css">
+  <%# stylesheet_link_tag "/stylesheets/theme/reset-min.css", :media => 'all' %>
+  <%# stylesheet_link_tag "/stylesheets/theme/fonts-min.css", :media => 'all' %>
+  <%# stylesheet_link_tag "/stylesheets/theme/grids-min.css", :media => 'all' %>
+  <%= stylesheet_link_tag "/stylesheets/theme/alanna.css", :media => 'all' %>
+  <%= javascript_include_tag 'niftycube' %>
+  <script type="text/javascript">
+    window.onload=function(){
+      Nifty("div#sidebar,div#content");
+      Nifty("div#hd","top");
+      Nifty("div#ft", "bottom");
+    }
+  </script>
+</head>
+
+<body>
+<div id="doc" class="yui-t2">
+	<div id="hd">
+		<a href="/"><h1>Alanna Thornton</h1></a>
+		  <div id="navigation">
+			  <a href="/pages/girl"><%= image_tag 'girl_papyrus.png' %></a>
+			  <a href="/pages/guitar"><%= image_tag 'guitar_papyrus.png' %></a>
+			  <a href="/pages/music"><%= image_tag 'music_papyrus.png' %></a>
+			  <a href="/pages/mission"><%= image_tag 'mission_papyrus.png' %></a>
+			  <a href="/pages/friends"><%= image_tag 'friends_papyrus.png' %></a>
+			  <a href="/pages/extrabits"><%= image_tag 'extraBits_papyrus.png' %></a>
+		  </div>
+	  </div>
+
+	  <div id="bd">
+		  <div id="yui-main">
+			  <div class="yui-b">
+				  <div class="yui-gc">
+					  <div class="yui-u first">
+						  <div class="mod">
+							  <div class="wrapper">
+							    <div class="hd" id="content">
+							      <%= @content_for_layout %>
+							      <%= javascript_tag "show_dates_as_local_time()" %>
+						      </div>
+						    </div>
+					    </div>
+            </div>
+        
+            <div class="yui-u">
+            </div>
+          </div>				
+        </div>
+      </div>
+  
+      <div class="yui-b">
+        <div id="sidebar">
+          <% benchmark "BENCHMARK: layout/sidebars" do %>
+            <%= render_sidebars %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <div id="ft">
+      <p>All images, music, and content copyright Alanna Thornton.</p>
+    </div>
+  </div>
+</body>
+</html>

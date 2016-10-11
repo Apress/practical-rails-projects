@@ -1,0 +1,10 @@
+<h1>Editing exercise</h1>
+
+<%= error_messages_for :exercise %>
+
+<% form_for(:exercise, :url => exercise_path(@exercise), :html => { :method => :put }) do |f| %>
+  <%= render :partial => 'form', :locals => {:f => f} %>
+<% end %>
+
+<%= link_to 'Show', exercise_path(@exercise) %> |
+<%= link_to 'Back', exercises_path %>

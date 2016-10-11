@@ -1,0 +1,8 @@
+<tr> 
+  <td><%=h exercise.name %></td> 
+  <td><%=link_to image_tag("display.gif", {:title => "View Exercise Details"}), exercise_path(exercise) %></td> 
+  <td><%=link_to image_tag("edit_photo.gif", {:title => "Edit Exercise"}), edit_exercise_path(exercise) %></td> 
+  <td><%= link_to image_tag("delete_photo.gif", {:title => "Delete Exercise"}), exercise_path(exercise), 
+                                                 :confirm => 'Are you sure?', 
+                                                 :method => :delete %></td> 
+</tr> 

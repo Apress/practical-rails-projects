@@ -1,0 +1,7 @@
+<div id="login_form">
+	<p style="color:red;"><%= flash[:notice] %></p>
+	<h1>Please enter your access password: </h1>
+	<% form_tag sessions_path do %>
+		<%= password_field_tag :password %>
+	<% end %>	
+</div>

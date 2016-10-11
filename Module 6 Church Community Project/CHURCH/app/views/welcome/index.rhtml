@@ -1,0 +1,32 @@
+<div class="blog">
+	<h1 class="section_header">Newest Blog Posts<h1>     
+    <% for post in @posts %>
+        <h3><%= link_to post.headline, post_path(:user => post.user.login, :id => post) %></h3>
+        <span class="added">Written by <%= post.user.name %></span>
+        <p>
+            <%= truncate(post.body.gsub(%r{</?.*?>}, ""), 130) %> 
+            <%= link_to "[Read More]", post_path(:user => post.user.login, :id => post) %>
+        </p>
+        <hr />
+    <% end %>
+</div>
+
+
+<% content_for :sidebar do %>
+	<div class='about'>
+    	<h1 class="section_header">Have you met?</h1>
+    	<h3><%= link_to @user.name, showprofile_path(:user => @user.login) %></h3>
+    	<p><%= @user.detail.headline %></p>
+        <p><%= image_tag show_avatar %></p>
+    	<p><%= @user.detail.about_me %></p>
+    	<p><%= link_to '[Learn More About Me]', showprofile_path(:user => @user.login) %></p>	
+    </div>
+	<div class='gallery'>
+		<h1 class="section_header">Newest Photos</h1>
+		<% for photo in @photos %>
+		    <p class="thumb">
+		    <%= link_to image_tag(photo.public_filename(:thumb)) + '<br />' + photo.gallery.name + '<br /> by ' + photo.gallery.user.name + '<br />', gallery_path(:user => photo.gallery.user.login, :id => photo.gallery) %>
+		    </p>
+		<% end %>
+	</div>	
+<% end %>

@@ -1,0 +1,41 @@
+8
+
+dir
+1
+http://geekward.svnrepository.com/svn/church/app/views/layouts
+http://geekward.svnrepository.com/svn/church
+
+
+
+2007-06-23T17:51:52.495027Z
+1
+darkel
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e3e3886a-9633-0410-bd3a-ff29a20658b4
+
+application.rhtml
+file
+9
+
+
+
+2007-06-24T19:15:38.000000Z
+db75e60d2000fc2822c534a52169d95d
+2007-06-25T09:03:01.081189Z
+9
+darkel
+has-props
+

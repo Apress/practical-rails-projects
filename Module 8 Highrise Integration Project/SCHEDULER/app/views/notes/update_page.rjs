@@ -1,0 +1,7 @@
+page.replace_html 'notes_name', "Notes for #{@person.name}"
+
+page.replace_html  'notes_list', :partial => 'home/notes', :collection => @person.notes
+
+page.replace_html 'add_note', :partial => 'home/add_note', 
+                         :locals => { :subject_id => @person.id }                                       
+                                       

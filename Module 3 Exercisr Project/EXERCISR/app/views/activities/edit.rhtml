@@ -1,0 +1,9 @@
+<h1>Editing activity</h1> 
+
+<%= error_messages_for :activity %> 
+
+<% form_for(:activity, :url => activity_path(@workout, @activity), :html => { :method => :put }) do |f| %> 
+    <%= render :partial => 'form', :locals => {:f => f} %> 
+<% end %> 
+
+<%= link_to 'Back', workout_path(@workout) %> 

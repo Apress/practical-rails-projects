@@ -1,0 +1,17 @@
+<p>
+  <b>Title:</b>
+  <%=h @comic.title %>
+</p>
+
+<p>
+	<%= image_tag @comic.public_filename %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @comic.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_comic_path(@comic) %> |
+<%= link_to 'Back', comics_path %>

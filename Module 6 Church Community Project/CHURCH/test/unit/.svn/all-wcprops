@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/church/!svn/ver/1/test/unit
+END
+avatar_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/church/!svn/ver/7/test/unit/avatar_test.rb
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/church/!svn/ver/7/test/unit/user_test.rb
+END
+gallery_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/church/!svn/ver/9/test/unit/gallery_test.rb
+END
+detail_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/church/!svn/ver/7/test/unit/detail_test.rb
+END
+post_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/church/!svn/ver/7/test/unit/post_test.rb
+END
+photo_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/church/!svn/ver/9/test/unit/photo_test.rb
+END

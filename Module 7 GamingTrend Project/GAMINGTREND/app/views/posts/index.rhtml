@@ -1,0 +1,28 @@
+<%= ext_layout('News') %>
+<%= ext_news_grid("post", "NewsID", %w(Headline Body created_at Active),
+"{header: 'News Story', width: 610, dataIndex: 'Headline', id: 'Headline', renderer: renderNews},
+{header: 'Created At', width: 200, dataIndex: 'created_at', id: 'created_at'},          
+{header: 'Active?', width: 60, dataIndex: 'Active', renderer: formatBoolean}", 420) %>
+   
+
+<div id="content"> </div>
+
+<div id="newDialog">
+  <div class="x-dlg-hd">Create New Game</div>
+  <div class="x-dlg-bd">
+    <% form_for(:post, Post.new, :url => posts_path, :html => {:id => 'create_resource', :name => 'create_resource'}) do |f| %>
+      <p>
+        <label for="post_Headline">Story Headline:</label>
+        <%= f.text_field :Headline %>
+      </p>
+      <p>
+        <label for="post_FrontPage">Frontpage Headline:</label>
+        <%= f.text_field :Headline %>
+      </p>
+      <p>
+        <label for="post_Body">News Story:</label>
+        <%= f.text_area :Body %>
+      </p>
+    <% end %>
+  </div>
+</div>

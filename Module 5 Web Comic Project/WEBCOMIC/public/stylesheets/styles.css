@@ -1,0 +1,18 @@
+body {background-color: #224C8B;}
+#doc2 {background-color: #FFF;}
+.yui-b {margin: auto; text-align: center;}
+#ft {margin: auto; text-align: center;}}
+#doc2 { border: 4px solid #000;}
+#ft {background-color: red; color: white;}
+table {width: 65%; margin: auto; }
+th { text-align: left; background-color: red; color: white;}
+
+td{text-align: left; border-style: dashed; border-width: 1px; padding: 1px;}
+h1 {font-size: 197%; color: red; text-align: left; margin-left: 20%;}
+form {text-align:left; margin-left: 20%;}
+label {display: block;}
+textarea { height: 40px; width: 75%;}
+#login_form { margin: 35px;  text-align: center; }
+#login_form h1 { font-size: 197%;}
+#login_form input { font-size: 197%;}
+.title {font-size: 197%; color: red; text-align: center;}

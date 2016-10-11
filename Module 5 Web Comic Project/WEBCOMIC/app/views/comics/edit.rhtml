@@ -1,0 +1,26 @@
+<h1>Editing comic</h1>
+
+<%= error_messages_for :comic %>
+
+<% form_for(:comic, :url => comic_path(@comic), :html => { :method => :put }) do |f| %>
+	<p>
+		<%= image_tag @comic.public_filename %>
+	</p>
+
+  	<p>
+    	<b>Title</b><br />
+    	<%= f.text_field :title %>
+  	</p>
+
+  	<p>
+    	<b>Description</b><br />
+    	<%= f.text_area :description %>
+  	</p>
+
+  	<p>
+    	<%= submit_tag "Update" %>
+  	</p>
+<% end %>
+
+<%= link_to 'Show', comic_path(@comic) %> |
+<%= link_to 'Back', comics_path %>

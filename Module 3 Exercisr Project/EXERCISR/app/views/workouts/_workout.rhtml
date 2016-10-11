@@ -1,0 +1,11 @@
+<tr> 
+  <td><%= workout.date.to_s(:long) %></td> 
+  <td><%= workout.label %></td> 
+  <td><%=link_to image_tag("display.gif", {:title => "View Workout Details"}), workout_path(workout) %> </td> 
+  <td><%=link_to image_tag("edit_photo.gif", {:title => "Edit Workout Date/Label"}), edit_workout_path(workout) %></td> 
+  <td> 
+      <%= link_to image_tag("delete_photo.gif", {:title => "Delete Workout"}), workout_path(workout), 
+                                                 :confirm => 'Are you sure?', 
+                                                 :method => :delete %> 
+  </td> 
+</tr> 

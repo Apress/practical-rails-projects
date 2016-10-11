@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>My Personal Blog</title>
+  <%= javascript_include_tag 'ext-base' %>
+  <%= javascript_include_tag 'ext-all' %>
+  <%= stylesheet_link_tag 'ext-all' %>
+  <%= stylesheet_link_tag 'application' %>	
+  <script type="text/javascript" charset="utf-8">
+    Blog = function(){
+      return {
+        init : function(){
+          var layout = new Ext.BorderLayout(document.body, {
+            north: {
+              split:false,
+              initialSize: 105
+            },
+            east: {
+              split:false,
+              initialSize: 200
+            },
+            center: {
+              autoScroll: true
+            }
+          });
+          layout.beginUpdate();
+          layout.add('north', new Ext.ContentPanel('header', {fitToFrame:true}));
+          layout.add('east', new Ext.ContentPanel('navigation', {title: 'Navigation', fitToFrame:true, closable:false}));
+          layout.add('center', new Ext.ContentPanel('main'));
+          layout.endUpdate();
+        }
+      }
+    }();
+    Ext.EventManager.onDocumentReady(Blog.init, Blog, true);
+  </script>
+</head>
+
+<body>
+  <div id="header" class="ylayout-inactive-content">
+	  <h1 id="welcome_to_my_blog">My Blog</h1>
+  </div>
+
+  <div id="main">
+    <div id="content"  class="ylayout-inactive-content">
+      <%= yield %>		
+    </div>
+  </div>
+
+  <div id="navigation" class="ylayout-inactive-content">
+    <ul id="nav">
+      <li><%= link_to 'Home', home_path %></li>
+      <% for cat in Category.find(:all).collect { |c| c.name } do %>
+        <li><%= link_to "#{cat}", "/category/#{cat}" %></li>
+      <% end %>				
+    </ul>
+  </div>		
+</body>
+</html>

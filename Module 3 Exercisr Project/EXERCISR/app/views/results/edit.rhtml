@@ -1,0 +1,9 @@
+<h1>Editing result</h1> 
+
+<%= error_messages_for :result %> 
+
+<% form_for(:result, :url => result_path(@goal, @result), :html => { :method => :put }) do |f| %> 
+    <%= render :partial => 'form', :locals => {:f => f} %> 
+<% end %> 
+
+<%= link_to 'Back to Goal', goal_path(@goal) %> 

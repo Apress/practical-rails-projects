@@ -1,0 +1,25 @@
+<%= ext_layout('Developers') %>
+
+<%= ext_grid("developer", "DevID", %w(Name URL), 
+  "{header: 'Name', width: 300, dataIndex: 'Name'},
+	{header: 'URL', width: 250, dataIndex: 'URL'}", 170) %>
+
+<div id="content"> </div>
+
+
+<div id="newDialog">
+  <div class="x-dlg-hd">Create New Developer</div>
+  <div class="x-dlg-bd">
+    <% form_for(:developer, Developer.new, :url => developers_path, 
+         :html => {:id => 'create_resource', :name => 'create_resource'}) do |f| %>
+      <p>
+        <label for="developer_Name">Developer Name:</label>
+        <%= f.text_field :Name %>
+      </p>
+      <p>
+        <label for="developer_URL">Developer Home Page</label>
+        <%= f.text_field :URL %>
+      </p>
+    <% end %>
+	</div>
+</div>

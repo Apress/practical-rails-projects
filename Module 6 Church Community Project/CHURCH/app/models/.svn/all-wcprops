@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/church/!svn/ver/1/app/models
+END
+avatar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/church/!svn/ver/9/app/models/avatar.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/church/!svn/ver/10/app/models/user.rb
+END
+gallery.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/church/!svn/ver/9/app/models/gallery.rb
+END
+detail.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/church/!svn/ver/7/app/models/detail.rb
+END
+post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/church/!svn/ver/9/app/models/post.rb
+END
+photo.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/church/!svn/ver/10/app/models/photo.rb
+END

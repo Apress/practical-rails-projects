@@ -1,0 +1,191 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<head>
+<title>Alanna's Site : Alanna's Site - tag tags</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.alannathornton.com/xml/rsd" />
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="http://www.alannathornton.com/xml/atom/tag/tags/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.alannathornton.com/xml/rss20/tag/tags/feed.xml" />
+  <script src="/javascripts/cookies.js?1161488797" type="text/javascript"></script>
+  <script src="/javascripts/prototype.js?1161488797" type="text/javascript"></script>
+  <script src="/javascripts/effects.js?1161488797" type="text/javascript"></script>
+  <script src="/javascripts/typo.js?1161488797" type="text/javascript"></script>
+  <link href="/stylesheets/lightbox.css" media="all" rel="Stylesheet" type="text/css" />
+  <script src="/javascripts/lightbox.js" type="text/javascript"></script>
+
+  <script type="text/javascript"></script>
+<link href="/stylesheets/theme/reset-min.css?1188699061" media="all" rel="Stylesheet" type="text/css" />
+<link href="/stylesheets/theme/fonts-min.css?1188699062" media="all" rel="Stylesheet" type="text/css" />
+<link href="/stylesheets/theme/grids-min.css?1188699062" media="all" rel="Stylesheet" type="text/css" />
+<link href="/stylesheets/theme/alanna.css?1188699063" media="all" rel="Stylesheet" type="text/css" />
+<style>
+body {background: #c0c0c0;
+}
+#hd { background: url(../../images/theme/top-bg.jpg) repeat-x;  height: 180px; }
+#hd h1 {text-indent: -5000px; background: url(/images/theme/logo.gif) no-repeat; width: 
+201px; height: 205px; position: relative; top: 5px; left: 5px; float: left; }
+#navigation{ float: left; margin-left: 100px; margin-top: 40px; }
+
+#hd li {float: left; }
+
+#doc {background: #9c331e; }
+#bd {background:  url(/images/theme/al.jpg) no-repeat bottom right; height: 600px;}
+#img {border: none; }
+#content, #sidebar {background: #aca06c;padding:10px }
+</style>
+<script src="/javascripts/niftycube.js?1161665140" type="text/javascript"></script>
+<script type="text/javascript">
+window.onload=function(){
+Nifty("div#sidebar,div#content");
+
+Nifty("div#hd","top");
+Nifty("div#ft", "bottom");
+}
+</script>
+</head>
+
+<body>
+<div id="doc" class="yui-t2"><!-- possible values: t1, t2, t3, t4, t5, t6, t7 -->
+
+	<div id="hd">
+		<!-- start: your content here -->
+		<a href="/"><h1>Alanna Thornton</h1></a>
+		<div id="navigation">
+			<a href="/pages/girl"><img alt="Girl_papyrus" src="/images/girl_papyrus.png?1187663020" /></a>
+			<a href="/pages/guitar"><img alt="Guitar_papyrus" src="/images/guitar_papyrus.png?1187663020" /></a>
+			<a href="/pages/music"><img alt="Music_papyrus" src="/images/music_papyrus.png?1187663020" /></a>
+			<a href="/pages/mission"><img alt="Mission_papyrus" src="/images/mission_papyrus.png?1187663020" /></a>
+			<a href="/pages/friends"><img alt="Friends_papyrus" src="/images/friends_papyrus.png?1187661818" /></a>
+			<a href="/pages/extrabits"><img alt="Extrabits_papyrus" src="/images/extraBits_papyrus.png?1187661818" /></a>
+		</div>
+		<!-- end: your content here -->
+	</div>
+
+
+	<div id="bd">
+		<!-- start: primary column from outer template -->
+		<div id="yui-main">
+
+			<div class="yui-b">
+				<!-- start: stack grids here -->				
+				<div class="yui-gc">
+					<div class="yui-u first">
+						<!-- start: your content here -->
+						<div class="mod">
+							<div class="wrapper">
+							<div class="hd" id="content">
+							 <div class="post">
+  <h2><a href="/articles/2006/10/24/quick-test">quick test</a></h2>
+<p class="auth">Posted by Alanna
+<span class="typo_date" title="Tue, 24 Oct 2006 04:56:00 GMT">Tue, 24 Oct 2006 04:56:00 GMT</span></p>
+<div style="" class="lightboxplugin"><a href="http://72.249.18.53:3002/files/Alanna_-_1.jpg" rel="lightbox" title=""><img src="/files/myimage-thumb.png" alt="" title=""/></a></div>
+
+	<p>Eldon test</p>
+
+  
+  <p class="meta">Posted in <a href="/articles/category/test" rel="tag">test</a>&nbsp;<strong>|</strong>&nbsp;Tags <a href="/articles/tag/alanna" rel="tag">alanna</a>, <a href="/articles/tag/article" rel="tag">article</a>, <a href="/articles/tag/tags" rel="tag">tags</a>&nbsp;<strong>|</strong>&nbsp;<a href="/articles/2006/10/24/quick-test#comments">2 comments</a></p>
+  </div>
+
+
+							<script type="text/javascript">
+//<![CDATA[
+show_dates_as_local_time()
+//]]>
+</script>
+						</div>
+						</div>
+						</div>
+
+						<!-- end: your content here -->
+					</div>
+					<div class="yui-u">
+						<!-- start: your content here -->
+
+
+						<!-- end: your content here -->
+					</div>
+				</div>				
+				<!-- end: stack grids here -->
+			</div>
+		</div>
+		<!-- end: primary column from outer template -->
+		<!-- start: secondary column from outer template -->
+		<div class="yui-b">
+
+			<!-- start: your content here -->
+			        <div id="sidebar">
+      				
+				
+      
+<div class="sidebar-node">
+  
+<h3>Archives</h3>
+<ul id="archives">
+  
+    <li>
+      <a href="/articles/2006/12">December 2006</a>
+      <em>(1)</em>
+    </li>
+  
+    <li>
+      <a href="/articles/2006/11">November 2006</a>
+      <em>(2)</em>
+    </li>
+  
+    <li>
+      <a href="/articles/2006/10">October 2006</a>
+      <em>(3)</em>
+    </li>
+  
+</ul>
+
+
+</div>
+
+
+      
+<div class="sidebar-node">
+  <h3>Categories</h3>
+<ul id="categories">
+  
+  <li><a href="/articles/category/test">test</a> <em>(2)</em></li>
+  
+</ul>
+
+
+</div>
+
+
+      
+<div class="sidebar-node">
+  <h3>Syndicate</h3>
+<ul>
+    <li><a href="/xml/rss20/feed.xml" title="Articles feed">Articles</a></li>
+  
+    <li><a href="/xml/rss20/comments/feed.xml" title="Comments feed">Comments</a></li>
+  
+  
+</ul>
+
+</div>
+
+
+  
+
+
+				
+</div>
+			<!-- end: your content here -->						
+		</div>
+		<!-- end: secondary column from outer template -->
+	</div>
+	<div id="ft">
+		<!-- start: your content here -->
+		<p>All images, music, and content copyright Alanna Thornton.</p>
+
+		<!-- end: your content here -->    
+	</div>
+</div>
+</body>
+
+</html>

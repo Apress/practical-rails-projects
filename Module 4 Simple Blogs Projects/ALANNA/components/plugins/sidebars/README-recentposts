@@ -1,0 +1,49 @@
+Recent Posts Typo Plugin
+
+Created by Chris Saylor
+http://www.steelpixel.com
+
+Changelog
+=========
+
+v1.0 2006/03/08
+-Initial Release
+
+v1.1 2006/03/24
+-Change to using the generic form of find for backwards compatibility
+
+What is it?
+===========
+
+Displays recent posts in the sidebar. It has two options, the number of posts to show
+and the maximum number of characters to display in the post title (0 to display the whole
+post title). Display the typographically correct ellipsis on the end of the title if it
+is truncated.
+
+Requirements
+============
+
+* Typo, http://www.typosphere.org
+
+
+Installation
+============
+
+1. Unzip the files and upload to your components/plugins/sidebars folder. It
+should look like this:
+
+   |- components
+      `- plugins
+          `- sidebars
+            |- recentposts
+            |   |- configure.rhtml
+            |   `- content.rhtml
+            |
+             `-recentposts_controller.rb
+
+2. Go to your Typo settings page and clear your cache.
+
+3. Click on the Sidebar tab and drag and drop the sidebar onto your Active
+items column.
+
+4. Restart your web server if you don't see it. 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <title>Alanna's Site: Pardon the Dust</title>
+  <id>tag:www.alannathornton.com,2005:Typo</id>
+  <generator uri="http://www.typosphere.org" version="4.0">Typo</generator>
+  <link href="http://www.alannathornton.com/xml/atom/article/12/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://www.alannathornton.com/articles/2006/11/25/pardon-the-dust" rel="alternate" type="text/html"/>
+  <updated>2006-11-25T16:09:58-05:00</updated>
+  <entry>
+    <author>
+      <name>Alanna</name>
+    </author>
+    <id>urn:uuid:60af38bb-b609-4613-819a-a192ba6b3f98</id>
+    <published>2006-11-25T16:08:00-05:00</published>
+    <updated>2006-11-25T16:09:58-05:00</updated>
+    <title type="html">Pardon the Dust</title>
+    <link href="http://www.alannathornton.com/articles/2006/11/25/pardon-the-dust" rel="alternate" type="text/html"/>
+    <summary type="html">&lt;p&gt;Sorry about the mess right now, We&amp;#8217;re finishing up a few last few things for the new site and it was easier for Al if she could access the site at the current domain name.&lt;/p&gt;
+
+
+	&lt;p&gt;&amp;#8212;Admin&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <author>
+      <name>firmly1463@alannathornton.com</name>
+    </author>
+    <id>urn:uuid:f9caa79b-b028-4dc0-92e4-f1a3b43f09ba</id>
+    <published>2007-01-26T21:40:07-05:00</published>
+    <updated>2007-01-26T21:40:07-05:00</updated>
+    <title type="html">Comment on Pardon the Dust by firmly1463@alannathornton.com</title>
+    <link href="http://www.alannathornton.com/articles/2006/11/25/pardon-the-dust#comment-19" rel="alternate" type="text/html"/>
+    <content type="html">&lt;a href="mailto:firmly1463@alannathornton.com" rel="nofollow"&gt;firmly1463@alannathornton.com&lt;/a&gt;</content>
+  </entry>
+</feed>

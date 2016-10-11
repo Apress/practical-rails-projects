@@ -1,0 +1,10 @@
+<h1>Listing results for <%= h @goal.name %></h1> 
+
+<table> 
+  <tr><th>Date</th><th>Value</th></tr> 
+  <%= render :partial => 'result', :collection => @results %> 
+</table> 
+
+<br /> 
+
+<%= link_to 'Back to Goal', goal_path(@goal) %> 

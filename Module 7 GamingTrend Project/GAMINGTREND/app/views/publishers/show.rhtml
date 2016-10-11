@@ -1,0 +1,13 @@
+<%= ext_layout('Edit Publisher') %>
+
+<div id='content' class="ylayout-inactive-content">
+  <p>
+    <label for="publisher_Name">Company Name:</label>
+    <%= in_place_editor_field :publisher, :Name %>
+  </p>
+  <p>
+    <label for="publisher_URL">Publishers Home Page:</label>
+    <%= in_place_editor_field :publisher, :URL %>
+  </p>
+  <%= button_to 'Back', publishers_path, :method => :get %>	  
+</div>

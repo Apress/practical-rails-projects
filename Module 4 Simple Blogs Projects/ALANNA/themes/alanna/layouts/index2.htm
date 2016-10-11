@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<head>
+<title><%=h page_title %></title>
+<%= page_header %>
+<%= stylesheet_link_tag "/stylesheets/theme/reset-min.css", :media => 'all' %>
+<%= stylesheet_link_tag "/stylesheets/theme/fonts-min.css", :media => 'all' %>
+<%= stylesheet_link_tag "/stylesheets/theme/grids-min.css", :media => 'all' %>
+
+<style>
+body {background: #c0c0c0;
+}
+#hd { background: url(top-bg.jpg) repeat-x;  height: 180px; }
+#hd h1 {text-indent: -5000px; background: url(logo.gif) no-repeat; width: 201px; height: 205px; position: relative; top: 5px; left: 5px; float: left; }
+#navigation{ float: left; margin-left: 100px; margin-top: 40px; }
+
+#hd li {float: left; }
+
+#doc {background: #9c331e; }
+#bd {background:  url(al.jpg) no-repeat bottom right; height: 600px;}
+#img {border: none; }
+#content, #sidebar {background: #aca06c;padding:10px }
+</style>
+<%= javascript_include_tag 'niftycube' %>
+<script type="text/javascript">
+window.onload=function(){
+Nifty("div#sidebar,div#content");
+}
+</script>
+</head>
+
+<body>
+<div id="doc" class="yui-t2"><!-- possible values: t1, t2, t3, t4, t5, t6, t7 -->
+
+	<div id="hd">
+		<!-- start: your content here -->
+		<h1>Alanna Thornton</h1>
+		<div id="navigation">
+			<a href="#">test</a>
+			<a href="#">test</a>
+			<a href="#">test</a>
+			<a href="#">test</a>
+		</div>
+		<!-- end: your content here -->
+	</div>
+
+
+	<div id="bd">
+		<!-- start: primary column from outer template -->
+		<div id="yui-main">
+
+			<div class="yui-b">
+				<!-- start: stack grids here -->				
+				<div class="yui-gc">
+					<div class="yui-u first">
+						<!-- start: your content here -->
+						<div class="mod">
+							<div class="hd" id="content">
+							<%= @content_for_layout %>
+						</div>
+						</div>
+						<!-- end: your content here -->
+					</div>
+					<div class="yui-u">
+						<!-- start: your content here -->
+
+
+						<!-- end: your content here -->
+					</div>
+				</div>				
+				<!-- end: stack grids here -->
+			</div>
+		</div>
+		<!-- end: primary column from outer template -->
+		<!-- start: secondary column from outer template -->
+		<div class="yui-b">
+
+			<!-- start: your content here -->
+			        <div id="sidebar">
+      
+				<% benchmark "BENCHMARK: layout/sidebars" do %>
+				<%= render_sidebars %>
+				<% end %>
+</div>
+			<!-- end: your content here -->						
+		</div>
+		<!-- end: secondary column from outer template -->
+	</div>
+	<div id="ft">
+		<!-- start: your content here -->
+		<p>FOOTER: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas sit amet metus. Nunc quam elit, posuere nec, auctor in, rhoncus quis, dui. Aliquam erat volutpat. Ut dignissim, massa sit amet dignissim cursus, quam lacus feugiat.</p>
+
+		<!-- end: your content here -->    
+	</div>
+</div>
+</body>
+
+</html>

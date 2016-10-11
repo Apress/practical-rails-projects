@@ -1,0 +1,39 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 21
+/svn/church/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/church/!svn/ver/6/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/church/!svn/ver/9/config/routes.rb
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/church/!svn/ver/1/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/church/!svn/ver/1/config/environment.rb
+END
+amazon_s3.yml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/church/!svn/ver/7/config/amazon_s3.yml
+END
+database.example
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/church/!svn/ver/7/config/database.example
+END

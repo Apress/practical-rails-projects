@@ -1,0 +1,19 @@
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>Welcome to the Party</title>
+	<script type="text/javascript" src="http://maps.yahooapis.com/v3.04/fl/javascript/apiloader.js?appid=[YOUR APP ID]"> </script>
+	<%= javascript_include_tag 'prototype' %>
+	<%= javascript_include_tag 'scriptaculous' %>
+	<%= javascript_include_tag 'ext-prototype-adapter' %>	
+	<%= javascript_include_tag 'ext-all' %>
+
+  <%= stylesheet_link_tag 'ext-all' %>
+  <%= stylesheet_link_tag 'application' %>
+</head>
+  <body>
+    <div id="container">
+      <%= yield %>	
+    </div>
+	</body>
+</html>

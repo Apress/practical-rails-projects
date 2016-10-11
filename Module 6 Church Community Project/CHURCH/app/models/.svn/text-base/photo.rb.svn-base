@@ -1,0 +1,10 @@
+class Photo < ActiveRecord::Base
+  has_attachment :content_type => :image, 
+                 :storage => :file_system, 
+                 :max_size => 2.megabytes,
+                 :resize_to => '640x360>',
+                 :thumbnails => { :thumb => '140x105>' }
+  validates_as_attachment  
+  belongs_to :gallery
+  belongs_to :user
+end

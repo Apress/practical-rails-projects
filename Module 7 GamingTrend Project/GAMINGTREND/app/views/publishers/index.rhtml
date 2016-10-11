@@ -1,0 +1,26 @@
+<%= ext_layout('Publishers') %>
+<%= ext_grid("publisher", "PubID", %w(Name URL), 
+  "{header: 'Name', width: 300, dataIndex: 'Name'},
+	{header: 'URL', width: 250, dataIndex: 'URL'}", 170) %>
+
+
+<div id="content"> </div>
+
+
+
+<div id="newDialog">
+  <div class="x-dlg-hd">Create New Publisher</div>
+  <div class="x-dlg-bd">
+    <% form_for(:publisher, Publisher.new, :url => publishers_path, 
+         :html => {:id => 'create_resource', :name => 'create_resource'}) do |f| %>
+      <p>
+        <label for="publisher_Name">Publisher Name:</label>
+        <%= f.text_field :Name %>
+      </p>
+      <p>
+        <label for="publisher_URL">Publisher Home Page</label>
+        <%= f.text_field :URL %>
+      </p>
+    <% end %>
+	</div>
+</div>

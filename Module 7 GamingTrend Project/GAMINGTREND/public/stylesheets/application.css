@@ -1,0 +1,83 @@
+.inplaceeditor-empty {
+    font-style: italic;
+    color: #999;
+}
+
+textarea {
+	height: 200px;
+	width: 600px;
+	font-size 1.1em;
+}
+label {
+	font-size: 1.2em;
+	font-weight:strong;
+	display: block;
+	margin-top: 5px;
+	color: #EEE;
+}
+#content label {
+	color: #000;
+}
+#header {
+	background-color: #333;
+}
+#header img {
+	padding: 10px;
+}
+.x-dlg-bd label {
+	color: #000;
+}
+.x-dlg-bd p {
+	padding: 5px;
+	background-color: #BBB;
+}	
+newDialog label {
+	font-size: 1.2em;
+	font-weight:strong;
+	display: block;
+	margin-top: 0px;
+	color: #EEE;		
+}
+#sidebar img {
+	border-bottom: 1px solid #666666;
+}
+#game_header img{
+	height:100px;
+	float: right;
+	padding: 10px;
+	}
+label {
+	font-size: 1.2em;
+	font-weight: bold;
+	}
+input.textarea {
+	height: 400px;
+	width: 500px;
+	}
+#screenshots img { 
+	float: left;
+	display: inline;
+	padding: 20px;
+	}
+#content p{
+	margin: 5px;
+}
+#content p {
+	margin-bottom: 7px;
+}
+#game_Description {
+	width: 65%;
+}
+#content textarea, #review textarea {
+	height: 200px;
+	width: 600px;
+}
+#game_header {
+	background-color: #ccc;
+}
+#game_header label { color: #000;}
+#edit_form {margin: 5px;}
+#activated, #add_game_associations {margin: 5px; padding: 4px; border: 3px solid #999; background-color: #CCC;}
+.alert { color: #C00;}
+#add_game_associations ul {margin :10px;}
+#add_game_associations ul input[type=checkbox] { margin-right: 10px;}

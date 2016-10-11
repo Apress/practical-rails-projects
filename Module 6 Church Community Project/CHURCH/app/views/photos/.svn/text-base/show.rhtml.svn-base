@@ -1,0 +1,10 @@
+<h1 class="section_header">View Photo<h1>
+<%= image_tag @photo.public_filename %>
+
+<% content_for :sidebar do %>
+<%= @photo.description %>
+<% if show_admin_menu %>
+    <h1 class="section_header">Photo Admin<h1>
+    <%= link_to "Delete Photo", photo_path(:user => @user.login, :id => @photo), :confirm => 'Are you sure?', :method => :delete %>
+<% end %>
+<% end %>

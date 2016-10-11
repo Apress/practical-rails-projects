@@ -1,0 +1,12 @@
+<h1>Listing workouts</h1> 
+<table> 
+  <tr><th>Date</th><th>Label</th></tr>  
+  <%= render :partial => 'workout', :collection => @workouts %> 
+</table> 
+<br /> 
+<h1>Add a New Workout</h1> 
+<div id="add_workout"> 
+  <% form_for(:workout, :url => workouts_path, :html => {:id => 'new_workout'}) do |f| %> 
+    <%= render :partial => 'form', :locals => {:f => f} %> 
+  <% end %> 
+</div> 

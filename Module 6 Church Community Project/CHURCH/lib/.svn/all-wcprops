@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/church/!svn/ver/1/lib
+END
+authenticated_test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/church/!svn/ver/7/lib/authenticated_test_helper.rb
+END
+authenticated_system.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/church/!svn/ver/7/lib/authenticated_system.rb
+END

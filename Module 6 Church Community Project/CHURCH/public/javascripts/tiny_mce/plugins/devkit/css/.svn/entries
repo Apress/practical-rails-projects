@@ -1,0 +1,42 @@
+8
+
+dir
+7
+http://geekward.svnrepository.com/svn/lifepointe/public/javascripts/tiny_mce/plugins/devkit/css
+http://geekward.svnrepository.com/svn/lifepointe
+
+
+
+2007-06-18T01:46:21.284185Z
+7
+darkel
+
+
+svn:special svn:externals svn:needs-lock
+
+devkit_ui.css
+file
+
+
+
+
+2006-10-20T02:06:32.000000Z
+ca3e9336bfb4bc511738f6d2d6693306
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+devkit.css
+file
+
+
+
+
+2006-09-28T23:30:12.000000Z
+1fdee80fdc34802395a507eb1054ae1f
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+

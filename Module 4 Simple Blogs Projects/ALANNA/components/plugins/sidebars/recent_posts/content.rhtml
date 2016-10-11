@@ -1,0 +1,8 @@
+<h3>Recent Posts</h3>
+<div>
+  <ul>
+  <% for article in @recent_articles -%>
+    <li><%= article_link article.title, article %></li>
+  <% end %>
+  </ul>
+</div>

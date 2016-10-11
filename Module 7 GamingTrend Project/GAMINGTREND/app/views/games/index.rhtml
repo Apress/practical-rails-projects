@@ -1,0 +1,26 @@
+<%= ext_layout('Games') %>
+<%= ext_grid("game", "GameID", %w(Title Console),
+  "{header: 'Title', width: 300, dataIndex: 'Title'},
+   {header: 'Console', width: 250, dataIndex: 'Console'}", 340) %>
+
+<div id="content"> </div>
+
+<div id="newDialog" style="visibility:hidden; position:absolute; top:0px;">
+  <div class="x-dlg-hd">Create New Game</div>
+  <div class="x-dlg-bd">
+    <% form_for(:game, Game.new, :url => games_path, :html => {:id => 'create_resource', :name => 'create_resource'}) do |f| %>
+      <p>
+        <label for="game_Title">Title:</label>
+        <%= f.text_field :Title %>
+      </p>
+      <p>
+        <label for="game_Console">Console:</label>
+        <%= f.select :Console,  %w(Xbox 360 PS2 ps3 PSP Cube GBA DS WII PC Nokia ) %>
+      </p>
+      <p>
+        <label for="game_Description">Description:</label>
+        <%= f.text_area :Description %>
+      </p>
+    <% end %>
+  </div>
+</div>

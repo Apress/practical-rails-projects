@@ -1,0 +1,8 @@
+<p>
+  <%= f.collection_select :exercise_id, current_user.exercises.find(:all), :id, :name, :prompt => "Select an Exercise" %>
+  or add a new exercise: <%= f.text_field :new_exercise_name %>
+</p> 
+
+<p>One set of <%= f.text_field :repetitions %> with <%= f.text_field :resistance %> pounds of resistance</p> 
+
+<p> <%= submit_tag "Save" %> </p> 

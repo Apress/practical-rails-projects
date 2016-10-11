@@ -1,0 +1,19 @@
+<%= ext_layout('Create New Developer') %>
+
+<div id="content">
+  <%= error_messages_for :developer %>
+  <% form_for(:developer, Developer.new, :url => developers_path, 
+       :html => {:id => 'create_resource', :name => 'create_resource'}) do |f| %>
+    <p>
+      <label for="developer_Name">Developer Name:</label>
+      <%= f.text_field :Name %>
+    </p>
+
+    <p>
+      <label for="developer_URL">Developer Home Page</label>
+      <%= f.text_field :URL %>
+    </p>
+
+    <p><%= submit_tag "Create" %></p>
+  <% end %>
+</div>

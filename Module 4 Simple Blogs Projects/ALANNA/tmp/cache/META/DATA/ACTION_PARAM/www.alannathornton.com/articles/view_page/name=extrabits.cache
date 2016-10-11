@@ -1,0 +1,405 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<head>
+<title>Alanna's Site : The Extra Bits</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.alannathornton.com/xml/rsd" />
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="http://www.alannathornton.com/xml/atom/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.alannathornton.com/xml/rss20/feed.xml" />
+  <script src="/javascripts/cookies.js?1161488797" type="text/javascript"></script>
+  <script src="/javascripts/prototype.js?1161488797" type="text/javascript"></script>
+  <script src="/javascripts/effects.js?1161488797" type="text/javascript"></script>
+  <script src="/javascripts/typo.js?1161488797" type="text/javascript"></script>
+  
+  <script type="text/javascript"></script>
+<link href="/stylesheets/theme/reset-min.css?1188699061" media="all" rel="Stylesheet" type="text/css" />
+<link href="/stylesheets/theme/fonts-min.css?1188699062" media="all" rel="Stylesheet" type="text/css" />
+<link href="/stylesheets/theme/grids-min.css?1188699062" media="all" rel="Stylesheet" type="text/css" />
+<link href="/stylesheets/theme/alanna.css?1188699063" media="all" rel="Stylesheet" type="text/css" />
+<style>
+body {background: #c0c0c0;
+}
+#hd { background: url(../../images/theme/top-bg.jpg) repeat-x;  height: 180px; }
+#hd h1 {text-indent: -5000px; background: url(/images/theme/logo.gif) no-repeat; width: 
+201px; height: 205px; position: relative; top: 5px; left: 5px; float: left; }
+#navigation{ float: left; margin-left: 100px; margin-top: 40px; }
+
+#hd li {float: left; }
+
+#doc {background: #9c331e; }
+#bd {background:  url(/images/theme/al.jpg) no-repeat bottom right; height: 600px;}
+#img {border: none; }
+#content, #sidebar {background: #aca06c;padding:10px }
+</style>
+<script src="/javascripts/niftycube.js?1161665140" type="text/javascript"></script>
+<script type="text/javascript">
+window.onload=function(){
+Nifty("div#sidebar,div#content");
+
+Nifty("div#hd","top");
+Nifty("div#ft", "bottom");
+}
+</script>
+</head>
+
+<body>
+<div id="doc" class="yui-t2"><!-- possible values: t1, t2, t3, t4, t5, t6, t7 -->
+
+	<div id="hd">
+		<!-- start: your content here -->
+		<a href="/"><h1>Alanna Thornton</h1></a>
+		<div id="navigation">
+			<a href="/pages/girl"><img alt="Girl_papyrus" src="/images/girl_papyrus.png?1187663020" /></a>
+			<a href="/pages/guitar"><img alt="Guitar_papyrus" src="/images/guitar_papyrus.png?1187663020" /></a>
+			<a href="/pages/music"><img alt="Music_papyrus" src="/images/music_papyrus.png?1187663020" /></a>
+			<a href="/pages/mission"><img alt="Mission_papyrus" src="/images/mission_papyrus.png?1187663020" /></a>
+			<a href="/pages/friends"><img alt="Friends_papyrus" src="/images/friends_papyrus.png?1187661818" /></a>
+			<a href="/pages/extrabits"><img alt="Extrabits_papyrus" src="/images/extraBits_papyrus.png?1187661818" /></a>
+		</div>
+		<!-- end: your content here -->
+	</div>
+
+
+	<div id="bd">
+		<!-- start: primary column from outer template -->
+		<div id="yui-main">
+
+			<div class="yui-b">
+				<!-- start: stack grids here -->				
+				<div class="yui-gc">
+					<div class="yui-u first">
+						<!-- start: your content here -->
+						<div class="mod">
+							<div class="wrapper">
+							<div class="hd" id="content">
+							<div id="viewpage" >
+  <h2>Interview with Alanna</h2>
+
+
+	<p>Just in case some of you might want to know a little bit more (random) information about Alanna, we had her sit down with her best friend, Jan for an interview.  And if there is a question about her that you want to know that is not in this interview, feel free to email Alanna and ask her.</p>
+
+
+	<p><strong>What is your favorite color?</strong></p>
+
+
+	<p>Well, pink of course!!!</p>
+
+
+	<p><strong>Where did you go to grade school and who was your favorite teacher?</strong></p>
+
+
+	<p>I went to elementary, junior high &#38; high school in a town called Pacific.  It’s a tiny little “suburb” of St Louis.  About 10 minutes from Six Flags over Mid-America.  My favorite teacher??  Tough question, cuz I had some great ones.  The one that stands out the most was Mr McClain.  I had him for English Lit my senior year.  Very, very fun class!  We got to listen to Bob Dylan and read awesome poetry and write papers.  Right up my alley!</p>
+
+
+	<p><strong>Tell us about how you came to play the flute?</strong></p>
+
+
+	<p>I had a babysitter named Melissa that was a flute player.  One day she started teaching me how to play.  The next year, I joined the 5th grade band, and the rest is history!</p>
+
+
+	<p><strong>What is your favorite drink and snack at Starbucks?</strong></p>
+
+
+	<p>I actually have 2 favorite drinks…My absolute fave is only available in the winter.  It’s the fantastic Caramel Apple Cider.  <span class="caps">YUM</span>.  And the best is when you know someone that works there, and halfway down your cup, they refill the whip cream &#38; caramel sauce.  My standard fave drink is a decaf non-fat Mocha.  And my fave treat is the Maple Oat Scone.  At 540 calories, however, I don’t eat them often, but my my my are they yummy!!!</p>
+
+
+	<p><strong>How do Keep off the Grass signs get there?</strong></p>
+
+
+	<p>That’s a great question!  You know what else I want to know??  How do you throw away a trash can??</p>
+
+
+	<p><strong>What is your favorite dramatic movie? Do you have a favorite quote from that movie?</strong></p>
+
+
+	<p>Does “Ever After” count as a drama?  My fave quote from that movie “If you…suffer your people to be ill educated and their manners corrupted from infancy, and then punish them for the crimes to which their first educations disposed them…then what is to be concluded, sire, is that you first make thieves, then punish them.”  And then there’s Braveheart…”Fight and you may die.  Run and you’ll live…a little while.  But many years from now, lying on your death beds, you’d be willing to trade all your days from this day till that to have one chance…just one chance to tell our enemies that they may take our lives, but they’ll never take our freedom”.  Gosh, that’s beautiful!</p>
+
+
+	<p><strong>What is your favorite comedy?</strong></p>
+
+
+	<p>Right now I&#8217;m all about &#8220;over the hedge&#8221;!</p>
+
+
+	<p><strong>Who are some of the people that have most influenced your music?</strong></p>
+
+
+	<p>Lots!  Don &#38; Lori Chaffer of Waterdeep are my favorite!!  They revolutionized my view of music.  Their transparency and their obvious love of music and worship overflows through their lyrics and every area of their lives.    Every thing they do shows forth as an act of worship, and I think that’s such a beautiful thing, and something I strive to do as well.  Rich Mullins had a huge impact on me in the beginning of my spiritual journey. His music &#38; legacy have continued to challenge me and encourage me in my faith.  He was an incredible man of faith and had an awesome heart for the Lord.  Chris Tomlin is another that has influenced me greatly.  It’s interesting to listen to my songs and his, because they sorta seem to parallel each other, if that makes sense.  His heart for ministry and worship and leading the people of God into the Throne Room is so….so…I can’t think of a word for it.  But, I feel like it’s where my heart is as well.  I identify with him in so many ways, even though we’ve never met!  Others that I love are Jason Upton – incredible!  Rita Springer’s voice and style.</p>
+
+
+	<p><strong>Which person(s) have most impacted your life spiritually and personally?</strong></p>
+
+
+	<p>My Mom &#38; Dad.  My Grandparents. My brother, Joe.  My best friend, Jan.  My friend, Shayne Schroader.  My amazing fiance, Isaac.  Some teachers from <span class="caps">CFNI</span> – Dr Larry Hill, Rob Carmen, Susan Bozarth, Arlene Friesen.  My dear friends from Kansas City, Susan Mongeau &#38; Michele Brooks.  A teacher from high school, Amy Cox.</p>
+
+
+	<p><strong>When you hear the word Worship what comes to your mind?</strong></p>
+
+
+	<p>My first thought…I see a huge multitude of people…like thousands and thousands of people, maybe millions.  And they are all together in heart.  Some are on their faces, some on their knees, some standing with their hands raised.  But, they are all focused on one thing…Jesus.  They don’t stop singing “worthy….holy….worthy…holy….Jesus…Jesus”  I think so many people think of “worship” as being 30 minutes on Sunday morning before the sermon, but that isn’t it at all!  Worship…true worship…is about Jesus, not about us at all.  Just to be in His Presence.  To sit at His feet.  To cry “Holy”.  To be there…in that place…just totally focused on Him.  Casting down my crown at His feet.  Bowing before Him.  That’s worship.  Seeing Zeph. 2:11 come to pass &#8211; to see all nations, tribes and tongues worshipping on their own land.  Wouldn&#8217;t that be amazing?</p>
+
+
+	<p><strong>Tell us what you are book(s) you are reading now and how they impact your daily life.</strong></p>
+
+
+	<p>Right now I am reading “The Sacred Romance”.  It is an amazing book!  I’ve read it before, but it has so much impacted me the past few weeks, it is speaking to my heart right where I am!  Beautiful.  It reminds me of the love that Jesus has for me, and that we are constantly being pursued by Him.  He is wooing our hearts continuously.  I think we so often forget that aspect of Him.  We see Him as Father, Savior, Counselor…But we forget that we are His Bride.  He loves us, and that is what this book is reminding me.  That I am His desire and His passion..</p>
+
+
+	<p><strong>Do you have any pets?</strong></p>
+
+
+	<p>Nope&#8230;I&#8217;m gone too much, and I would have to leave them home alone too often.</p>
+
+
+	<p><strong>What kind of car do you drive? Do you have a dream car?</strong></p>
+
+
+	<p>I drive a Honda Passport.  I love it!!  My dream car….Well, I actually have a couple!  I love the Mini Cooper.  And I love VW Bugs.  And the Honda Element.  The Honda Pilot is pretty cool, too!</p>
+
+
+	<p><strong>What is your hearts desire for ministry?</strong></p>
+
+
+	<p>Well, I’d love to travel around the world and lead people in worship.  I have a heart for youth and college age kids.  I say kids, though they aren’t much younger than me!    I got saved when I was 19, and I know how much I was searching for something during that time before, and I think that is why I want to reach out to that age group to show them the answer to the thing they are searching for.  Does that make sense?  My desire is to lead multitudes into that holy place of worship and communion with the Lord.</p>
+
+
+	<p><strong>If money where not a factor and you could do anything or go anywhere what would it be?</strong></p>
+
+
+	<p>Well….Maybe go to Ireland for a vacation!  But seriously…I’d probably go to Russia and do some sort of mission work there.  I’d want to take my parents and my friends, Donnie &#38; Amy and their kids to Africa every 6 months and do missions.  Gosh, there is so much I want to do!!</p>
+
+
+	<p><strong>What is your favorite food? Restaurant?</strong></p>
+
+
+	<p>Greek food!!  My fave restaurant is a little place in Kansas City called “Jerusalem Café”.  Lately, I&#8217;ve been all about steak!!!  Mmmmmm.</p>
+
+
+	<p><strong>Do you enjoy cooking? Baking?</strong></p>
+
+
+	<p>I do both…but I don’t do it often!  My Mom and brother are more of the cookers and bakers in our family.  I’ll just let them take care of it!</p>
+
+
+	<p><strong>If you were to write a book about your life what would you title it?</strong></p>
+
+
+	<p>“A Grateful Heart”???  I don’t….That is a tough one, I never thought about it!</p>
+
+
+	<p><strong>When I say the phrase “God made green” what images fill your mind?</strong></p>
+
+
+	<p>Rich Mullins!  And Ireland!  His video for the song “The Color Green” was shot in Ireland, which is my dream vacation spot!</p>
+
+
+	<p><strong>What do you like to do to relax and have fun?</strong></p>
+
+
+	<p>I love movies.  I’m a chick flick fiend!  I love them!  I also like reading and laying out in the sun.    Hanging out with friends and my family is always great fun, too.  Shopping.  I love to shop.  I think I have an obsession with buying purses.  Not sure why, but I love purses!!</p>
+
+
+	<p><strong>What is your favorite TV show?</strong></p>
+
+
+	<p>I have two, actually.  The first is Gilmore Girls on the WB.  I just love that show!  So funny and witty!!  And there’s finally people out there that talk as fast and as much as me!!  <span class="caps">YEAH</span>!  My 2nd is Extreme Makeover: Home Edition.  It makes me cry every week.  I think what they do for families is so beautiful and amazing.  I love the crew and their hearts to serve people and bring families together.  I just think that’s incredible.</p>
+
+
+	<p><strong>What was your favorite thing to do on summer break as a little kid?</strong></p>
+
+
+	<p>Swim!  We had a pool in our backyard and my brother and I were out there swimming every day.  It’s a wonder that I never grew fins!</p>
+
+
+	<p><strong>What was your most memorable Christmas gift?</strong></p>
+
+
+	<p>Definitely the dollhouse that my Dad built for me when I was 10.  Every girls dream present!  He worked for months on it.  It has individual shingles and a wrap around porch and three stories and hardwood floors.  It’s like my dream house!!  That was an incredible present that I will keep forever!!</p>
+
+
+	<p><strong>Have you ever traveled outside of the US?</strong></p>
+
+
+	<p>Yep!  When I was 16, I went with the Missouri Ambassadors of Music to Europe to play concerts.  We went to England, France (I spent my 17th birthday in Paris),  Italy, Germany, Lichtenstein, and my favorite, Switzerland.  It was an amazing experience and I look forward to going back some day!</p>
+
+
+	<p><strong>Where do you work and what has been your most enjoyed job?</strong></p>
+
+
+	<p>I work for a company that processes tax credits and incentives for other companies.  I work as an account manager, and also manage account managers.  I love my job, it&#8217;s definitely my favorite!!!</p>
+
+
+	<p><strong>Technology friend or foe?</strong></p>
+
+
+	<p>Great friend!</p>
+
+
+	<p><strong>What was the first song you wrote?  Which of your songs speaks most to your own heart and life?</strong></p>
+
+
+	<p>Daughter was the first song I wrote.  I think they all speak to my own heart and life.  The message in them all is very similar, so I think they sort of flow together.  Does that make sense?  But, I really love “Sing Praise”.  J</p>
+
+
+	<p><strong>Do you think the Coyote will ever catch the Roadrunner?</strong></p>
+
+
+	<p>I doubt it.  That Roadrunner is a tricky little guy!</p>
+
+
+	<p><strong>What is your favorite aspect of ministry?</strong></p>
+
+
+	<p>Seeing people encounter the Lord.  That is so amazing for me every time I see it.  Knowing that God is speaking to their heart and ministering to them is such a precious thing to witness, and very humbling to know that I played a role in it.</p>
+
+
+	<p><strong>If you had to pick just one what would be your favorite worship song and why?</strong></p>
+
+
+	<p>Ooooo, goodness.  I don’t know that I could pick. That’s too difficult of a question for me.  I love them all!!  Let’s just say…um, every song that Waterdeep, Chris Tomlin, Matt Redman &#38; Jason Upton have written are my favorites.  Does that count??</p>
+
+
+	<p><strong>What is the craziest thing you have ever done?</strong></p>
+
+
+	<p>I’ll have to think about that!  I’ve done some crazy stuff before, and I seem to be blocking all the memories out right now!  Hmmm…</p>
+
+
+	<p><strong>Are you married?  Have kids?  Want kids?</strong></p>
+
+
+	<p>I&#8217;m getting married March 30 to Isaac Gregg!  I can&#8217;t wait to marry the love of my life!!</p>
+
+
+	<p><strong>What CD are you listening to right now?</strong></p>
+
+
+	<p>Right now I’m completely taken with Chris Tomlin’s CD “Arriving”.  I take it everywhere with me.</p>
+
+
+	<p><strong>What is your most embarrassing moment?</strong></p>
+
+
+	<p>Which time?!  I have several!  The one that stands out…When I was in Texas, I had stopped at a very busy gas station after church one day.  As I was cleaning out the empty cups and stuff outta my car, I accidentally threw my debit card in the trash can.  I go inside to tell the workers that I needed to dig it out, and I wanted to let them know so that they wouldn’t think I was a weirdo.  So there I am, bent over the trash can, when an announcement comes over the intercom “Uh, excuse me, but would the lady in pink <span class="caps">PLEASE</span> stop digging through our trash cans????”  I stood up about 25 shades of red and looked at the guys through the window.  I held up my debit card in victory and pointed at them with (fake) angry eyes as we all busted out laughing….along with the 50 other people at the station.</p>
+
+
+	<p><strong>How many instruments do you own/play?</strong></p>
+
+
+	<p>I have 3 guitars, a red Alvarez electric/acoustic, a blue Takamine electric/acoustic, and a Fender Telecaster.  I have a flute, a djembe, 2 keyboards, 4 wooden flutes…I think that may be all.  Is it?</p>
+
+
+	<p><strong>What do you like to do on a rainy afternoon?</strong></p>
+
+
+	<p>Either sleep, read a good book or watch a movie.  I like to be snuggled up in on my couch relaxing!  ;)</p>
+
+
+	<p><strong>Beach, mountains, city or suburbs?</strong></p>
+
+
+	<p>How about a mountainous city?  It’s strange, because I love mountains, but I hate cold.  And I love the city.  Not a big fan of the beach, but then again, I haven’t spent much time there (maybe 3 times in my adult life), so I’d give it another shot.  Someplace warm!</p>
+</div>
+
+							<script type="text/javascript">
+//<![CDATA[
+show_dates_as_local_time()
+//]]>
+</script>
+						</div>
+						</div>
+						</div>
+
+						<!-- end: your content here -->
+					</div>
+					<div class="yui-u">
+						<!-- start: your content here -->
+
+
+						<!-- end: your content here -->
+					</div>
+				</div>				
+				<!-- end: stack grids here -->
+			</div>
+		</div>
+		<!-- end: primary column from outer template -->
+		<!-- start: secondary column from outer template -->
+		<div class="yui-b">
+
+			<!-- start: your content here -->
+			        <div id="sidebar">
+      				
+				
+      
+<div class="sidebar-node">
+  
+<h3>Archives</h3>
+<ul id="archives">
+  
+    <li>
+      <a href="/articles/2006/12">December 2006</a>
+      <em>(1)</em>
+    </li>
+  
+    <li>
+      <a href="/articles/2006/11">November 2006</a>
+      <em>(2)</em>
+    </li>
+  
+    <li>
+      <a href="/articles/2006/10">October 2006</a>
+      <em>(3)</em>
+    </li>
+  
+</ul>
+
+
+</div>
+
+
+      
+<div class="sidebar-node">
+  <h3>Categories</h3>
+<ul id="categories">
+  
+  <li><a href="/articles/category/test">test</a> <em>(2)</em></li>
+  
+</ul>
+
+
+</div>
+
+
+      
+<div class="sidebar-node">
+  <h3>Syndicate</h3>
+<ul>
+    <li><a href="/xml/rss20/feed.xml" title="Articles feed">Articles</a></li>
+  
+    <li><a href="/xml/rss20/comments/feed.xml" title="Comments feed">Comments</a></li>
+  
+  
+</ul>
+
+</div>
+
+
+  
+
+
+				
+</div>
+			<!-- end: your content here -->						
+		</div>
+		<!-- end: secondary column from outer template -->
+	</div>
+	<div id="ft">
+		<!-- start: your content here -->
+		<p>All images, music, and content copyright Alanna Thornton.</p>
+
+		<!-- end: your content here -->    
+	</div>
+</div>
+</body>
+
+</html>

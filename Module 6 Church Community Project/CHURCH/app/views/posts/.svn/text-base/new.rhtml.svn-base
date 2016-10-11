@@ -1,0 +1,23 @@
+<div class="editblog">
+    <%= javascript_include_tag 'tiny_mce/tiny_mce' %>
+    <%= javascript_include_tag 'tinyconfig' %>
+
+    <h1 class="section_header">New post</h1>
+
+    <%= error_messages_for :post %>
+
+    <% form_for(:post, :url => posts_path(:user => @user.login)) do |f| %>
+      <p>
+        <b>Headline</b><br />
+        <%= f.text_field :headline %>
+      </p>
+
+      <p>
+        <b>Body</b><br />
+        <%= f.text_area :body %>
+      </p>
+      <p>
+        <%= submit_tag "Create" %>
+      </p>
+    <% end %>
+</div>

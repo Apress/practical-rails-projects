@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+   <title>Church Family Pages</title>
+   <link rel="stylesheet" href="http://yui.yahooapis.com/2.2.0/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
+	<%= stylesheet_link_tag 'styles' %>
+</head>
+<body>
+<div id="doc2" class="yui-t7">
+  <div id="hd">
+    <h1>Church Family Pages<h1>
+  </div>
+
+	<div id="bd">
+    <div class="yui-g navigation">
+      <a href="/">Home</a> | 
+      <a href="/directory">Directory</a> | 
+      <a href="/logout">Logout</a>
+    </div>
+		
+		<div class="yui-gc">
+      <div class="yui-u first"> <%= yield %> </div>
+    	<div class="yui-u">
+    	  <div class ='sidebar'><%= yield :sidebar %></div>
+    	</div>
+		</div>
+  </div>
+  <div id="ft">
+    <% if logged_in? %>
+      <div class="admin_menu">
+        <%= link_to 'Your Page', showuser_path(:user => current_user.login) %>
+        <%= link_to 'Edit your Profile', editprofile_path(:user => current_user.login) %>
+        <%= link_to 'Create Blog Post', new_post_path(:user => current_user.login) %>
+        <%= link_to 'Manage Photo Galleries', galleries_path(:user => current_user.login) %>
+      </div>
+    <% end %>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <title>Alanna's Site: Test Post</title>
+  <id>tag:www.alannathornton.com,2005:Typo</id>
+  <generator uri="http://www.typosphere.org" version="4.0">Typo</generator>
+  <link href="http://www.alannathornton.com/xml/atom/article/3/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://www.alannathornton.com/articles/2006/10/22/test-post" rel="alternate" type="text/html"/>
+  <updated>2006-10-22T00:54:19-04:00</updated>
+  <entry>
+    <author>
+      <name>Alanna</name>
+    </author>
+    <id>urn:uuid:c455fc44-d690-454b-a606-999032ff8182</id>
+    <published>2006-10-22T00:54:19-04:00</published>
+    <updated>2006-10-22T00:54:19-04:00</updated>
+    <title type="html">Test Post</title>
+    <link href="http://www.alannathornton.com/articles/2006/10/22/test-post" rel="alternate" type="text/html"/>
+    <summary type="html">&lt;p&gt;This is a test post&lt;/p&gt;</summary>
+  </entry>
+</feed>

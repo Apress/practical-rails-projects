@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <title>Alanna's Site: Links</title>
+  <id>tag:www.alannathornton.com,2005:Typo</id>
+  <generator uri="http://www.typosphere.org" version="4.0">Typo</generator>
+  <link href="http://www.alannathornton.com/xml/atom/article/6/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://www.alannathornton.com/articles/2006/10/24/links" rel="alternate" type="text/html"/>
+  <updated>2006-10-24T20:04:24-04:00</updated>
+  <entry>
+    <author>
+      <name>Alanna</name>
+    </author>
+    <id>urn:uuid:8336dfb6-dcc7-4dee-89aa-7c578b1e5d31</id>
+    <published>2006-10-24T20:04:00-04:00</published>
+    <updated>2006-10-24T20:04:24-04:00</updated>
+    <title type="html">Links</title>
+    <link href="http://www.alannathornton.com/articles/2006/10/24/links" rel="alternate" type="text/html"/>
+    <summary type="html">&lt;p&gt;Here are a few links to some websites of friends and people that I love.  Check them out!&lt;/p&gt;
+
+
+	&lt;p&gt;My favorite band, &lt;a href="www.waterdeep.com"&gt;Waterdeep&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;My friend, &lt;a href="www.jamesclayband.com"&gt;James Clay&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;My friends, &lt;a href="www.empyrealworship.com"&gt;Mark &amp;#38; Mindy Collum&lt;/a&gt; (I recorded flute on their latest CD)&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.christomlin.com"&gt;Chris Tomlin&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.jasonupton.com"&gt;Jason Upton&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.relevantmagazine.com"&gt;A great online magazine&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.cfni.org"&gt;My alma mater&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+</feed>

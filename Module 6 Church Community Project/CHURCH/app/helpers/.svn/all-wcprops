@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/church/!svn/ver/1/app/helpers
+END
+avatar_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/church/!svn/ver/7/app/helpers/avatar_helper.rb
+END
+profile_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/church/!svn/ver/7/app/helpers/profile_helper.rb
+END
+users_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/church/!svn/ver/7/app/helpers/users_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/church/!svn/ver/9/app/helpers/application_helper.rb
+END
+sessions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/church/!svn/ver/7/app/helpers/sessions_helper.rb
+END
+galleries_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/church/!svn/ver/9/app/helpers/galleries_helper.rb
+END
+posts_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/church/!svn/ver/7/app/helpers/posts_helper.rb
+END
+welcome_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/church/!svn/ver/7/app/helpers/welcome_helper.rb
+END
+photos_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/church/!svn/ver/9/app/helpers/photos_helper.rb
+END

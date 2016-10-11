@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/church/!svn/ver/1/test/functional
+END
+welcome_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/church/!svn/ver/7/test/functional/welcome_controller_test.rb
+END
+photos_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/church/!svn/ver/9/test/functional/photos_controller_test.rb
+END
+avatar_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/church/!svn/ver/7/test/functional/avatar_controller_test.rb
+END
+profile_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/church/!svn/ver/7/test/functional/profile_controller_test.rb
+END
+users_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/church/!svn/ver/7/test/functional/users_controller_test.rb
+END
+sessions_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/church/!svn/ver/7/test/functional/sessions_controller_test.rb
+END
+galleries_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/church/!svn/ver/9/test/functional/galleries_controller_test.rb
+END
+posts_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/church/!svn/ver/7/test/functional/posts_controller_test.rb
+END

@@ -1,0 +1,144 @@
+<script type="text/javascript" charset="utf-8">
+  gameLayout = function() {
+     var layout;
+     return{
+
+     init : function(){
+        var layout = new Ext.BorderLayout(document.body, {
+           north: {
+              split:false, 
+              initialSize:65
+           }, 
+           center: {
+              titlebar:false,
+              tabPosition: 'top',
+              alwaysShowTab: true,
+              autoScroll:true
+           },
+           west: {
+              initialSize: 125,
+              minSize: 125,
+              maxSize:125,
+              titlebar: true,
+              split:true,
+              collapsible:true,
+              animate:true
+            }
+         });
+         layout.beginUpdate();  
+         layout.add('north', new Ext.ContentPanel('header'));
+
+         var innerLayout = new Ext.BorderLayout('main', {
+            north: {
+               split:true,
+               initialSize:155,
+               titlebar:true,
+               collapsible:true,
+               animate:true					
+            },
+            center: {
+               autoScroll:true,
+               tabPosition:'top'
+               }				
+            });
+
+         innerLayout.add('north', new Ext.ContentPanel('game_header', {title:"<%= h @game.Title %>"}));
+         var tab1 = new Ext.ContentPanel('content', {title:'Description'}); 
+         innerLayout.add('center', tab1);
+
+         var tab2 = new Ext.ContentPanel('screenshots',{title:'ScreenShots'});
+         innerLayout.add('center', tab2);	
+
+         layout.add('center', new Ext.NestedLayoutPanel(innerLayout));
+         innerLayout.getRegion('center').showPanel('content');
+         layout.add('west', new Ext.ContentPanel('sidebar', {title: 'Navigation'}));
+         layout.endUpdate();}
+         }
+  }();
+  Ext.EventManager.onDocumentReady(gameLayout.init, gameLayout, true);
+</script>
+
+<div id="container">
+   <div id="game_header">
+     <table border="0" cellspacing="5" cellpadding="5">
+       <tr>
+         <td rowspan='6'> <%= image_tag "http://www.gamingtrend.com/goldguide/#{@game.boxart}" %> </td>
+         <td> <label for="game_Console">Console</label> </td>
+         <td> <%= in_place_select :game, :Console, :choices => ["Xbox", "360", "PS2", "ps3", "PSP", "Cube", "GBA", "DS", "WII", "PC", "Nokia"] %> </td>
+
+         <td> <label for="game_PubID">Publisher</label> </td>
+         <td><%= in_place_select :game, :PubID, :choices => Publisher.find(:all).collect {|p| [ p.Name, p.PubID ] }.sort  %> </td>
+       </tr>
+       <tr>
+         <td> <label for="game_Genre">Genre</label> </td>
+         <td>  <%= in_place_select :game, :GenreID, :choices => Genre.find(:all).collect {|p| [ p.TYPE, p.GenreID ] }.sort  %> </td>
+         <td> <label for="game_DevID">Developer</label> </td>
+         <td>  <%= in_place_select :game, :DevID, :choices => Developer.find(:all).collect {|d| [ d.Name, d.DevID ] }.sort %></td>
+       </tr>
+       <tr>
+         <td> <label for="game_ESRB">ESRB Rating</label> </td>
+         <td> <%= in_place_select :game, :ESRB, :choices =>  %w(U T M EC E 10 AO RP)  %></td>
+         <td><label for="game_SiteURL">Official Site</label></td>
+         <td> <%= in_place_editor_field :game, :homepage  %></td>
+       </tr>			
+     </table>
+   </div>
+
+   <div id="main">
+      <div id='content' class="ylayout-inactive-content">
+<script type="text/javascript" charset="utf-8">
+Ext.onReady(function(){
+
+  Ext.form.Field.prototype.msgTarget = 'side';
+
+  var game = new Ext.form.Form({
+    labelAlign: 'top',
+    url:'<%= game_url(@game) %>'
+  });
+  game.add(
+    new Ext.form.TextField({
+        fieldLabel: 'Title',
+        name: 'game[Title]',
+        width:225,
+        allowBlank:false,
+        maxLength:100,
+        value:"<%= @game.Title.gsub("\n", "").gsub('"', '\"').gsub("'", "\'").gsub("\r", "") %>"
+      }),
+
+    new Ext.form.HtmlEditor({
+      id:'description',
+      fieldLabel:'Description',
+      name: 'game[Description]',
+      value: "<%= @game.Description.gsub("\n", "").gsub('"', '\"').gsub("'", "\'").gsub("\r", "") %>",
+      width:550,
+      height:200
+    })
+  );
+
+  game.addButton('Save', function(){
+    if(game.isValid()){
+      game.submit({
+        params:{
+          action: "update",
+          _method: "put",
+          commit:"Save",
+          id: <%= @game.id %>
+        }, waitMsg:'Saving Description Now...'
+      });
+    } else {
+      Ext.MessageBox.alert('Errors', 'Please fix the errors noted.');
+    }
+  }, game);
+  
+  game.render('content');      
+  });
+  
+</script>
+        
+      </div>
+
+      <div id="screenshots" class="ylayout-inactive-content">
+            <%= render :partial => '/screenshots/screenshots', :collection => @game.screenshots %>	
+      </div>
+   </div>
+</div>

@@ -1,0 +1,25 @@
+<h1>Listing comics</h1>
+
+<table>
+  <tr>
+    <th>Filename</th>
+    <th>Title</th>
+    <th>Description</th>
+	<th> </th>
+	<th> </th>
+  </tr>
+  
+<% for comic in @comics %>
+  <tr>
+    <td><%=h comic.filename %></td>
+    <td><%=h comic.title %></td>
+    <td><%=h truncate( comic.description, 35) %></td>
+    <td><%= link_to 'Edit', edit_comic_path(comic) %></td>
+    <td><%= link_to 'Destroy', comic_path(comic), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New comic', new_comic_path %>

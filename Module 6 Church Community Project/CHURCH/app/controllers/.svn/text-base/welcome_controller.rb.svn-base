@@ -1,0 +1,15 @@
+class WelcomeController < ApplicationController
+  skip_filter :get_user
+  
+  def index
+  end
+
+  def directory
+  end
+
+  def search
+  end
+
+  def about
+  end
+end

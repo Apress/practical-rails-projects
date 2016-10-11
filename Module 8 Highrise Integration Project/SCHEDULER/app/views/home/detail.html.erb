@@ -1,0 +1,62 @@
+<%= javascript_include_tag 'tablegrid' %>
+<script type="text/javascript" charset="utf-8">
+
+	Ext.onReady(function() {
+			layout = new Ext.BorderLayout(document.body, {
+			north: {
+				split:false, 
+				initialSize:50
+				 }, 
+			center: {
+				titlebar:true,
+				autoScroll: true
+				 },
+			west: {
+				initialSize: 125,
+				maxSize:125,
+				titlebar:true,
+				split:true,
+				collapsible:true
+			}
+		});
+		
+		layout.beginUpdate();  
+			layout.add('north', new Ext.ContentPanel('header'));
+			layout.add('center', new Ext.ContentPanel('customers_grid', {title: 'Customers'}));
+			layout.add('west', new Ext.ContentPanel('sidebar', {title: 'Navigation'}));		
+		layout.endUpdate();
+	});
+</script>
+
+			<div id='header' class="ylayout-inactive-content"><h1>Welcome to the Party</h1></div>
+
+<div id="customers_grid"class="ylayout-inactive-content">
+		<h1>Customer Detail</h1>
+		<p><%= @customer.full_name %></p>
+		<p><%= @customer.title %></p>		
+		<p><%= @customer.background %></p>		
+		<h1>Notes</h1>
+		<% for note in @customer.notes %>	
+			<p><%= note.body %></p>
+		<% end %>
+		
+		<% form_for :note, :url => {:controller => "notes", :action => "create"} do |n| %>
+		<fieldset>
+			<legend>Add A Note</legend>
+			<ol>
+				<li><label for="body">Add a Note:</label><%= n.text_field 'body' %></li>
+				<%= n.hidden_field :subject_type, :value => 'Party' %>				
+				<%= n.hidden_field :subject_id, :value => @customer.id %>
+				<li><%= submit_tag 'Create', :class => 'submit' %></li>
+			</ol>
+		</fieldset>
+		<% end %>
+</div>
+
+<div id="sidebar" class="ylayout-inactive-content">
+	<div id="sidebar-nav">
+		<%= link_to "Today", {:action => "today"}   %>
+		<%= link_to "Inbox",{ :action => "inbox"} %>
+		<%= link_to  "Customer", {:action => "customer"} %> 
+	</div>
+</div>

@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates
+END
+notifier_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/notifier_test.rb
+END
+unit_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/unit_test.rb
+END
+notifier.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/notifier.rb
+END
+helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/helper.rb
+END
+authenticated_test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/authenticated_test_helper.rb
+END
+model_functional_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/model_functional_test.rb
+END
+controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/controller.rb
+END
+activation.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/activation.rhtml
+END
+authenticated_system.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/authenticated_system.rb
+END
+observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/observer.rb
+END
+signup.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/signup.rhtml
+END
+migration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/migration.rb
+END
+login.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/login.rhtml
+END
+signup_notification.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/signup_notification.rhtml
+END
+model_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/model_helper.rb
+END
+model.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/model.rb
+END
+functional_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/functional_test.rb
+END
+model_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/model_controller.rb
+END
+fixtures.yml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/church/!svn/ver/7/vendor/plugins/restful_authentication/generators/authenticated/templates/fixtures.yml
+END

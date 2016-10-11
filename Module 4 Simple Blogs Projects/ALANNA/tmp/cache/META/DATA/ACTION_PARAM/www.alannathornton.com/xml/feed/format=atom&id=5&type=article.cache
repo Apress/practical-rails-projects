@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <title>Alanna's Site: quick test</title>
+  <id>tag:www.alannathornton.com,2005:Typo</id>
+  <generator uri="http://www.typosphere.org" version="4.0">Typo</generator>
+  <link href="http://www.alannathornton.com/xml/atom/article/5/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://www.alannathornton.com/articles/2006/10/24/quick-test" rel="alternate" type="text/html"/>
+  <updated>2006-10-24T22:23:46-04:00</updated>
+  <entry>
+    <author>
+      <name>Alanna</name>
+    </author>
+    <id>urn:uuid:3420f77e-000f-4812-9ba5-ac045fdafd25</id>
+    <published>2006-10-24T00:56:00-04:00</published>
+    <updated>2006-10-24T22:23:46-04:00</updated>
+    <title type="html">quick test</title>
+    <link href="http://www.alannathornton.com/articles/2006/10/24/quick-test" rel="alternate" type="text/html"/>
+    <category term="test" scheme="http://www.alannathornton.com/articles/category/test" label="test"/>
+    <category term="article" scheme="http://www.alannathornton.com/articles/tag/article"/>
+    <category term="tags" scheme="http://www.alannathornton.com/articles/tag/tags"/>
+    <category term="alanna" scheme="http://www.alannathornton.com/articles/tag/alanna"/>
+    <summary type="html">&lt;div style="" class="lightboxplugin"&gt;&lt;a href="http://72.249.18.53:3002/files/Alanna_-_1.jpg" rel="lightbox" title=""&gt;&lt;img src="/files/myimage-thumb.png" alt="" title=""/&gt;&lt;/a&gt;&lt;/div&gt;
+
+	&lt;p&gt;Eldon test&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <author>
+      <name>Isaac "the" Gregg</name>
+    </author>
+    <id>urn:uuid:dd9f3f73-355c-45cc-84e2-42dc2e7fc937</id>
+    <published>2006-12-19T15:58:31-05:00</published>
+    <updated>2006-12-19T15:58:31-05:00</updated>
+    <title type="html">Comment on quick test by Isaac "the" Gregg</title>
+    <link href="http://www.alannathornton.com/articles/2006/10/24/quick-test#comment-15" rel="alternate" type="text/html"/>
+    <content type="html">annnndddddd we get to have dinner tonight!:))</content>
+  </entry>
+  <entry>
+    <author>
+      <name>Isaac "the" Gregg</name>
+    </author>
+    <id>urn:uuid:2c7ca994-d6f6-4dc0-831a-6febde0352f9</id>
+    <published>2006-12-19T15:57:35-05:00</published>
+    <updated>2006-12-19T15:57:35-05:00</updated>
+    <title type="html">Comment on quick test by Isaac "the" Gregg</title>
+    <link href="http://www.alannathornton.com/articles/2006/10/24/quick-test#comment-14" rel="alternate" type="text/html"/>
+    <content type="html">I love my fiance! Looks good woman!! new site.. new car.. new life... wow God is good to his kids.. </content>
+  </entry>
+</feed>

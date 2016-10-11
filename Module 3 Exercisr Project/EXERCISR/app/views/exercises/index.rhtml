@@ -1,0 +1,16 @@
+<h1>Exercises</h1> 
+<p>On this page you can create and manage the exercises that you use in your workouts.</p> 
+<p>You can also view reports on your progress for each exercises</p> 
+
+<table id="exercise_details"> 
+  <tr><th>Name</th></tr> 
+    <%= render :partial => 'exercise', :collection => @exercises %> 
+</table> 
+<br /><br /> 
+
+<h1>Add a New Exercise</h1> 
+<div id="add_exercise"> 
+  <% form_for(:exercise, :url => exercises_path, :html => {:id => 'new_exercise'}) do |f| %> 
+    <%= render :partial => 'form', :locals => {:f => f} %> 
+  <% end %> 
+</div>

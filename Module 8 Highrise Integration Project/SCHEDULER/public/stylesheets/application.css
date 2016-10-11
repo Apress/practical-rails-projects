@@ -1,0 +1,11 @@
+#header { background: url('/images/default/layout/panel-title-bg.gif'); height: 100%;}
+#header h1 {float: left; padding-top: 4px; padding-left: 20px; color: #FFF; font-size: 1.4em;}
+#notes_list {margin: 5px;}
+#notes_list p { width: 95%; padding: 5px; border-bottom: 1px dashed #999; background-color: #FF6;}
+h1, h2, h3 { margin: .55em 0 .25em 0; font-family: Calibri, Helvetica, Arial, sans-serif; text-transform: capitalize; letter-spacing: -.05em;}
+
+#add_note form { margin: 8px;}
+#add_note legend { margin: .55em 0 .25em 0; font-family: Calibri, Helvetica, Arial, sans-serif; text-transform: capitalize; letter-spacing: -.05em;}
+#add_note label {display: block; }
+#add_note textarea { height: 140px; width:90%; border: 1px solid black; margin: auto;}
+#add_note .submit {float: right;}

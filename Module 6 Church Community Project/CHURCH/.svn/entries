@@ -1,0 +1,88 @@
+8
+
+dir
+1
+http://geekward.svnrepository.com/svn/church
+http://geekward.svnrepository.com/svn/church
+
+
+
+2007-06-23T17:51:52.495027Z
+1
+darkel
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e3e3886a-9633-0410-bd3a-ff29a20658b4
+
+test
+dir
+
+app
+dir
+
+tmp
+dir
+
+log
+dir
+
+Rakefile
+file
+
+
+
+
+2007-06-23T17:51:52.000000Z
+17f2f134da4cd31ea095d5868ca89e86
+2007-06-23T17:51:52.495027Z
+1
+darkel
+
+script
+dir
+
+components
+dir
+
+config
+dir
+
+db
+dir
+
+doc
+dir
+
+lib
+dir
+
+vendor
+dir
+
+README
+file
+
+
+
+
+2007-06-23T17:51:52.000000Z
+2ffe7715fd6ba5509508a29022c22a17
+2007-06-23T17:51:52.495027Z
+1
+darkel
+
+public
+dir
+

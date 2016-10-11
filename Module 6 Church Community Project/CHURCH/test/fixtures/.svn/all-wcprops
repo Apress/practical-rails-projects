@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/church/!svn/ver/1/test/fixtures
+END
+avatars.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/church/!svn/ver/7/test/fixtures/avatars.yml
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/church/!svn/ver/7/test/fixtures/users.yml
+END
+details.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/church/!svn/ver/7/test/fixtures/details.yml
+END
+galleries.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/church/!svn/ver/9/test/fixtures/galleries.yml
+END
+posts.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/church/!svn/ver/7/test/fixtures/posts.yml
+END
+photos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/church/!svn/ver/9/test/fixtures/photos.yml
+END

@@ -1,0 +1,55 @@
+8
+
+dir
+7
+http://geekward.svnrepository.com/svn/lifepointe/public/javascripts/tiny_mce/plugins/table/css
+http://geekward.svnrepository.com/svn/lifepointe
+
+
+
+2007-06-18T01:46:21.284185Z
+7
+darkel
+
+
+svn:special svn:externals svn:needs-lock
+
+cell.css
+file
+
+
+
+
+2006-06-29T21:11:24.000000Z
+56394e6cdb267d97e23a07a98820e84b
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+row.css
+file
+
+
+
+
+2006-06-29T21:11:24.000000Z
+81a75523c1e83be93e524c8bb901a089
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+table.css
+file
+
+
+
+
+2006-06-29T21:11:24.000000Z
+e68c6c084905e8abef06c302b468a878
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+

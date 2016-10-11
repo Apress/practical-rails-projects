@@ -1,0 +1,77 @@
+8
+
+dir
+7
+http://geekward.svnrepository.com/svn/lifepointe/public/javascripts/tiny_mce/plugins/advlink
+http://geekward.svnrepository.com/svn/lifepointe
+
+
+
+2007-06-18T01:46:21.284185Z
+7
+darkel
+
+
+svn:special svn:externals svn:needs-lock
+
+editor_plugin.js
+file
+
+
+
+
+2007-04-28T22:53:00.000000Z
+db8939f6dc255847a7d55c9e8bb567a8
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+jscripts
+dir
+
+langs
+dir
+
+link.htm
+file
+
+
+
+
+2007-05-08T20:19:06.000000Z
+b0e299e0511f08085a88fac2ad91ee62
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+editor_plugin_src.js
+file
+
+
+
+
+2007-04-28T22:53:00.000000Z
+c1b0538d4ea1d710705c91f09a155c6a
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+
+css
+dir
+
+readme.txt
+file
+
+
+
+
+2006-06-29T21:11:24.000000Z
+fe81b122bcf0e8599bb841cca33f967a
+2007-06-18T01:46:21.284185Z
+7
+darkel
+has-props
+

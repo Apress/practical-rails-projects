@@ -1,0 +1,14 @@
+<h1>Results for <%= h @goal.name %> </h1> 
+
+<table> 
+  <tr><th>Date</th><th>Value</th></tr> 
+  <%= render :partial => 'results/result', :collection => @results %> 
+</table> 
+
+<h3>Record New Result for this Goal</h3> 
+
+<% form_for(:result, :url => results_path(@goal)) do |f| %> 
+  <%= render :partial => 'results/form', :locals => {:f => f} %> 
+<% end %> 
+
+<%= link_to 'Back', workouts_path %> 

@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  id: 1
+  workout_id: 1
+  exercise_id: 1
+  resistance: 1
+  repetitions: 1
+two:
+  id: 2
+  workout_id: 1
+  exercise_id: 1
+  resistance: 1
+  repetitions: 1

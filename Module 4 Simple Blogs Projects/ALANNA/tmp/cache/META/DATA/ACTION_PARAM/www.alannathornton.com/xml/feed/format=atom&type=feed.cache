@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <title>Alanna's Site</title>
+  <id>tag:www.alannathornton.com,2005:Typo</id>
+  <generator uri="http://www.typosphere.org" version="4.0">Typo</generator>
+  <link href="http://www.alannathornton.com/xml/atom/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://www.alannathornton.com/" rel="alternate" type="text/html"/>
+  <updated>2006-12-19T15:35:27-05:00</updated>
+  <entry>
+    <author>
+      <name>Alanna</name>
+    </author>
+    <id>urn:uuid:d7f64021-1b0b-4873-9069-a80f64d24ffa</id>
+    <published>2006-12-19T15:35:27-05:00</published>
+    <updated>2006-12-19T15:35:27-05:00</updated>
+    <title type="html">Hello all</title>
+    <link href="http://www.alannathornton.com/articles/2006/12/19/hello-all" rel="alternate" type="text/html"/>
+    <category term="test" scheme="http://www.alannathornton.com/articles/category/test" label="test"/>
+    <summary type="html">&lt;p&gt;Welcome to the new site&amp;#8230;..Looks good, huh?!  Merry Christmas!!!&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <author>
+      <name>Alanna</name>
+    </author>
+    <id>urn:uuid:60af38bb-b609-4613-819a-a192ba6b3f98</id>
+    <published>2006-11-25T16:08:00-05:00</published>
+    <updated>2006-11-25T16:09:58-05:00</updated>
+    <title type="html">Pardon the Dust</title>
+    <link href="http://www.alannathornton.com/articles/2006/11/25/pardon-the-dust" rel="alternate" type="text/html"/>
+    <summary type="html">&lt;p&gt;Sorry about the mess right now, We&amp;#8217;re finishing up a few last few things for the new site and it was easier for Al if she could access the site at the current domain name.&lt;/p&gt;
+
+
+	&lt;p&gt;&amp;#8212;Admin&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <author>
+      <name>Alanna</name>
+    </author>
+    <id>urn:uuid:1f14ad58-fff7-4650-9eb9-ed14af5d2855</id>
+    <published>2006-11-02T08:00:00-05:00</published>
+    <updated>2006-11-25T16:04:36-05:00</updated>
+    <title type="html">Future Article</title>
+    <link href="http://www.alannathornton.com/articles/2006/11/02/future-article" rel="alternate" type="text/html"/>
+    <summary type="html">&lt;h2&gt;This is a future article&lt;/h2&gt;
+
+
+	&lt;p&gt;It &lt;strong&gt;won&amp;#8217;t&lt;/strong&gt; be posted till thursday.&lt;/p&gt;
+
+
+	&lt;p&gt;Eldon&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <author>
+      <name>Alanna</name>
+    </author>
+    <id>urn:uuid:8336dfb6-dcc7-4dee-89aa-7c578b1e5d31</id>
+    <published>2006-10-24T20:04:00-04:00</published>
+    <updated>2006-10-24T20:04:24-04:00</updated>
+    <title type="html">Links</title>
+    <link href="http://www.alannathornton.com/articles/2006/10/24/links" rel="alternate" type="text/html"/>
+    <summary type="html">&lt;p&gt;Here are a few links to some websites of friends and people that I love.  Check them out!&lt;/p&gt;
+
+
+	&lt;p&gt;My favorite band, &lt;a href="www.waterdeep.com"&gt;Waterdeep&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;My friend, &lt;a href="www.jamesclayband.com"&gt;James Clay&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;My friends, &lt;a href="www.empyrealworship.com"&gt;Mark &amp;#38; Mindy Collum&lt;/a&gt; (I recorded flute on their latest CD)&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.christomlin.com"&gt;Chris Tomlin&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.jasonupton.com"&gt;Jason Upton&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.relevantmagazine.com"&gt;A great online magazine&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.cfni.org"&gt;My alma mater&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <author>
+      <name>Alanna</name>
+    </author>
+    <id>urn:uuid:3420f77e-000f-4812-9ba5-ac045fdafd25</id>
+    <published>2006-10-24T00:56:00-04:00</published>
+    <updated>2006-10-24T22:23:46-04:00</updated>
+    <title type="html">quick test</title>
+    <link href="http://www.alannathornton.com/articles/2006/10/24/quick-test" rel="alternate" type="text/html"/>
+    <category term="test" scheme="http://www.alannathornton.com/articles/category/test" label="test"/>
+    <category term="article" scheme="http://www.alannathornton.com/articles/tag/article"/>
+    <category term="tags" scheme="http://www.alannathornton.com/articles/tag/tags"/>
+    <category term="alanna" scheme="http://www.alannathornton.com/articles/tag/alanna"/>
+    <summary type="html">&lt;div style="" class="lightboxplugin"&gt;&lt;a href="http://72.249.18.53:3002/files/Alanna_-_1.jpg" rel="lightbox" title=""&gt;&lt;img src="/files/myimage-thumb.png" alt="" title=""/&gt;&lt;/a&gt;&lt;/div&gt;
+
+	&lt;p&gt;Eldon test&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <author>
+      <name>Alanna</name>
+    </author>
+    <id>urn:uuid:c455fc44-d690-454b-a606-999032ff8182</id>
+    <published>2006-10-22T00:54:19-04:00</published>
+    <updated>2006-10-22T00:54:19-04:00</updated>
+    <title type="html">Test Post</title>
+    <link href="http://www.alannathornton.com/articles/2006/10/22/test-post" rel="alternate" type="text/html"/>
+    <summary type="html">&lt;p&gt;This is a test post&lt;/p&gt;</summary>
+  </entry>
+</feed>

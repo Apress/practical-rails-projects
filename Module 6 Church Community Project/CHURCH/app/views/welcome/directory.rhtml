@@ -1,0 +1,40 @@
+<h1 class="section_header">Alphabetical Index</h1>
+<div class="directory">
+  <% @alphabet.each do |letter| %> 
+    <% if letter == @character %>
+        <span class="current"><%= letter %></span>
+    <% else %>
+        <%= link_to letter, directory_path(:char => letter), :class => "letter" %> 
+    <% end %>
+  <% end %> 
+</div>
+<hr/>
+
+<% for user in @users %>
+    <div class="result">
+        <div class="userImage"><%= image_tag show_small_avatar(user) %></div>
+        
+        <div class="userInfo">
+            <strong>Name: </strong><%= user.name %><br />
+        </div>
+        
+        <div class="userActions">
+            <%= link_to "View", showprofile_path(:user => user.login) %>
+        </div>
+                    
+    </div>
+<% end %>
+
+
+
+<% content_for :sidebar do %>
+    <div class='about'>
+    	<h1 class="section_header">Have you met?</h1>
+    	<h3><%= link_to @user.name, showprofile_path(:user => @user.login) %></h3>
+    	<p><%= @user.detail.headline %></p>
+        <p><%= image_tag show_avatar %></p>
+    	<p><%= @user.detail.about_me %></p>
+    	<p><%= link_to '[Learn More About Me]', showprofile_path(:user => @user.login) %></p>	
+    </div>
+<% end %>
+

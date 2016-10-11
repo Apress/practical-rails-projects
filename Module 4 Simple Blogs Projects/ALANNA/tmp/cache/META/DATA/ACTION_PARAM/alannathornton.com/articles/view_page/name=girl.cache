@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<head>
+<title>Alanna's Site : The Girl</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://alannathornton.com/xml/rsd" />
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="http://alannathornton.com/xml/atom/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://alannathornton.com/xml/rss20/feed.xml" />
+  <script src="/javascripts/cookies.js?1161488797" type="text/javascript"></script>
+  <script src="/javascripts/prototype.js?1161488797" type="text/javascript"></script>
+  <script src="/javascripts/effects.js?1161488797" type="text/javascript"></script>
+  <script src="/javascripts/typo.js?1161488797" type="text/javascript"></script>
+  
+  <script type="text/javascript"></script>
+<link href="/stylesheets/theme/reset-min.css?1188699061" media="all" rel="Stylesheet" type="text/css" />
+<link href="/stylesheets/theme/fonts-min.css?1188699062" media="all" rel="Stylesheet" type="text/css" />
+<link href="/stylesheets/theme/grids-min.css?1188699062" media="all" rel="Stylesheet" type="text/css" />
+<link href="/stylesheets/theme/alanna.css?1189741875" media="all" rel="Stylesheet" type="text/css" />
+<style>
+body {background: #c0c0c0;
+}
+#hd { background: url(../../images/theme/top-bg.jpg) repeat-x;  height: 180px; }
+#hd h1 {text-indent: -5000px; background: url(/images/theme/logo.gif) no-repeat; width: 
+201px; height: 205px; position: relative; top: 5px; left: 5px; float: left; }
+#navigation{ float: left; margin-left: 100px; margin-top: 40px; }
+
+#hd li {float: left; }
+
+#doc {background: #9c331e; }
+#bd {background:  url(/images/theme/al.jpg) no-repeat bottom right; height: 600px;}
+#img {border: none; }
+#content, #sidebar {background: #aca06c;padding:10px }
+</style>
+<script src="/javascripts/niftycube.js?1161665140" type="text/javascript"></script>
+<script type="text/javascript">
+window.onload=function(){
+Nifty("div#sidebar,div#content");
+
+Nifty("div#hd","top");
+Nifty("div#ft", "bottom");
+}
+</script>
+</head>
+
+<body>
+<div id="doc" class="yui-t2"><!-- possible values: t1, t2, t3, t4, t5, t6, t7 -->
+
+	<div id="hd">
+		<!-- start: your content here -->
+		<a href="/"><h1>Alanna Thornton</h1></a>
+		<div id="navigation">
+			<a href="/pages/girl"><img alt="Girl_papyrus" src="/images/girl_papyrus.png?1187663020" /></a>
+			<a href="/pages/guitar"><img alt="Guitar_papyrus" src="/images/guitar_papyrus.png?1187663020" /></a>
+			<a href="/pages/music"><img alt="Music_papyrus" src="/images/music_papyrus.png?1187663020" /></a>
+			<a href="/pages/mission"><img alt="Mission_papyrus" src="/images/mission_papyrus.png?1187663020" /></a>
+			<a href="/pages/friends"><img alt="Friends_papyrus" src="/images/friends_papyrus.png?1187661818" /></a>
+			<a href="/pages/extrabits"><img alt="Extrabits_papyrus" src="/images/extraBits_papyrus.png?1187661818" /></a>
+		</div>
+		<!-- end: your content here -->
+	</div>
+
+
+	<div id="bd">
+		<!-- start: primary column from outer template -->
+		<div id="yui-main">
+
+			<div class="yui-b">
+				<!-- start: stack grids here -->				
+				<div class="yui-gc">
+					<div class="yui-u first">
+						<!-- start: your content here -->
+						<div class="mod">
+							<div class="wrapper">
+							<div class="hd" id="content">
+							<div id="viewpage" >
+  <h1>Alanna Beate Thornton.</h1>
+
+
+	<p>Born June 24th in Houston TX</p>
+
+
+	<p>Alanna grew up in St. Louis MO alongside her brother Joe.  Her parents are William and Lucinda Thornton (Bill &#38; Cindy as most folks call them).</p>
+
+
+	<p>Her love of music started at an early age, she began playing the flute in the fourth grade at the age of 9. Alanna had a natural talent for the flute and was soon playing classical music from memory. Her love of music and her natural abilities won her many top honors at competitions and took her to Southwest Missouri State University (SMSU) as music major. In her years at <span class="caps">SMSU</span> Alanna was a member of both the marching band and flute ensemble.</p>
+
+
+	<p>After leaving <span class="caps">SMSU</span>, she moved with her family to Lake of the Ozarks, MO in 1995.  She lived there for a little over a year when she took a job in Kansas City MO where she learned of Christ for the Nations Institute (CFNI) in Dallas, TX.  In August of 1999 Alanna moved to Dallas to begin classes at <span class="caps">CFNI</span> where she earned a degree in Theology with a minor in music. It was at <span class="caps">CFNI</span> that her passion for Youth/Young Adult ministry flourished; she was the Youth/Young Adult pastor at River of Life Church in Duncanville TX for a year! In that time God revealed much of His purpose for her life, showing her how she would use not only her musical gifts to bring young people to Christ but also her incredible ability to preach His Word with power and truth!</p>
+
+
+	<p>God then moved her from Duncanville to Ft. Worth TX where she co-led worship with Shayne Schroader at Stockyards Community Church. The two of them, along with some friends had a band named “Audience of One”, and played the Apostle Credo coffeehouse often.</p>
+
+
+	<p>In June of 2003 her parents planted a church in Eugene MO, where Alanna is currently the Lead Worshipper! In her time there Alanna has grown closer to the Lord and has been a true example of what it means to live God loud!! It is her uncompromising pursuit to live for the glory of God that causes those around her to be transformed!</p>
+
+
+	<p>Alanna recorded her first full length CD in September of 2004; it is a 12 track CD with 7 original songs. She sings, plays guitar, flute and djembe on the album. The title track Gratitude exemplifies her heart attitude toward God. She is a woman unashamed of the gospel and lives every day with faith hope and a contagious joy that overtakes all who cross her path.</p>
+
+
+	<p>She has also had the opportunity to minister alongside a good friend Donnie Allen. Together they minister the healing power of God&#8217;s Word to the lost. In the fall of 2005 Alanna will be traveling to South Africa (with Donnie &#38; friends) to minister healing and salvation to the people of Port Elizabeth.  Her hearts cry is to lead others into the throne room to commune with God and, to see a lost and dying world made alive again through His mercy and grace and to see the fulfillment of Zephaniah 2:11.</p>
+</div>
+
+							<script type="text/javascript">
+//<![CDATA[
+show_dates_as_local_time()
+//]]>
+</script>
+						</div>
+						</div>
+						</div>
+
+						<!-- end: your content here -->
+					</div>
+					<div class="yui-u">
+						<!-- start: your content here -->
+
+
+						<!-- end: your content here -->
+					</div>
+				</div>				
+				<!-- end: stack grids here -->
+			</div>
+		</div>
+		<!-- end: primary column from outer template -->
+		<!-- start: secondary column from outer template -->
+		<div class="yui-b">
+
+			<!-- start: your content here -->
+			        <div id="sidebar">
+      				
+				
+      
+<div class="sidebar-node">
+  
+<h3>Archives</h3>
+<ul id="archives">
+  
+    <li>
+      <a href="/articles/2006/12">December 2006</a>
+      <em>(1)</em>
+    </li>
+  
+    <li>
+      <a href="/articles/2006/11">November 2006</a>
+      <em>(2)</em>
+    </li>
+  
+    <li>
+      <a href="/articles/2006/10">October 2006</a>
+      <em>(3)</em>
+    </li>
+  
+</ul>
+
+
+</div>
+
+
+      
+<div class="sidebar-node">
+  <h3>Categories</h3>
+<ul id="categories">
+  
+  <li><a href="/articles/category/test">test</a> <em>(2)</em></li>
+  
+</ul>
+
+
+</div>
+
+
+      
+<div class="sidebar-node">
+  <h3>Syndicate</h3>
+<ul>
+    <li><a href="/xml/rss20/feed.xml" title="Articles feed">Articles</a></li>
+  
+    <li><a href="/xml/rss20/comments/feed.xml" title="Comments feed">Comments</a></li>
+  
+  
+</ul>
+
+</div>
+
+
+  
+
+
+				
+</div>
+			<!-- end: your content here -->						
+		</div>
+		<!-- end: secondary column from outer template -->
+	</div>
+	<div id="ft">
+		<!-- start: your content here -->
+		<p>All images, music, and content copyright Alanna Thornton.</p>
+
+		<!-- end: your content here -->    
+	</div>
+</div>
+</body>
+
+</html>

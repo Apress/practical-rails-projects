@@ -1,0 +1,2 @@
+page['search'].reset
+page['results'].replace_html(:partial => 'association', :collection => @results)

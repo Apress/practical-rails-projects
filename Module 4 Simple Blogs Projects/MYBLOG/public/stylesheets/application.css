@@ -1,0 +1,32 @@
+.x-layout-panel-north{background:url(/images/headerbg.jpg);}
+.x-layout-panel-center{background-color:#D2E6B3;}
+.x-layout-panel-east{background-color:#A5CC66;}
+body{font-family:Constantia,Georgia,"Times New Roman",serif;font-size:62.5%;color:#1a1a1a;}
+div#content{min-width:20em;max-width:40em;font-size:1.4em;width:75%;margin:0 auto;}
+h1,h2,h3{margin:1em 0 .25em 0;font-family:Calibri,Helvetica,Arial,sans-serif;text-transform:capitalize;letter-spacing:-.05em;}
+h1{font-size:3em;}
+h2{font-size:1.66em;color:#666;}
+#header{font-size:1.4em;color:#FFF;}
+#header h1{margin-left:.6em;}
+#header h1 span{font-size:.7em;color:#B8304B ;}
+h3{font-size:1.4em;font-family:Constantia,Georgia,"Times New Roman",serif;font-weight:normal;text-transform:uppercase;letter-spacing:0;color:#B8304B;}
+a,a:visited{color:#B8304B;}
+div#content h3{margin-top:2em;}
+p{margin:0;line-height:1.4;margin-top:0.7em;}
+p + p{margin-top:0.7em;}
+p.intro{text-align:justify;font-size:1.33em;line-height:1.2;}
+blockquote{font-style:italic;margin:2em 5em;}
+blockquote p:before{content:"\201C";text-indent:-.5em;}
+blockquote p:after{content:"\201D";}
+div.pagination{padding:3px;margin:3px;}
+div.pagination a{padding:2px 5px 2px 5px;margin:2px;border:1px solid #546B2E;text-decoration:none;/* no underline */
+color:#000;}
+div.pagination a:hover,div.pagination a:active{border:1px solid #000099;color:#000;}
+div.pagination span.current{padding:2px 5px 2px 5px;margin:2px;border:1px solid #000099;font-weight:bold;background-color:#cc0000;color:#FFF;}
+div.pagination span.disabled{padding:2px 5px 2px 5px;margin:2px;border:1px solid #EEE;color:#DDD;}
+ul{list-style-type:square;}
+#nav{margin:0;padding:0;background:#546B2E;list-style-type:none;width:200px;float:left;}
+#nav li{margin:0;padding:0;float:left;width:100%;}
+#nav a{display:block;color:#FFF;text-decoration:none;padding:0 15px;line-height:2.5;border-bottom:1px solid #FFF;font-size:192%;}
+#nav #nav_con a{border:none;}
+#nav a:hover{background:#4F4532;}

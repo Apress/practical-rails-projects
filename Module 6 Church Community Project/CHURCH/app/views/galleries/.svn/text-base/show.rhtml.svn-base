@@ -1,0 +1,26 @@
+<h1 class="section_header"><%= @gallery.name %><h1>
+    <% @gallery.photos.in_groups_of(3, false) do |photos| %>
+        <ul class="thumbnails">
+        <% for photo in photos %>
+	        <li class="thumb"><%= link_to(image_tag(photo.public_filename(:thumb) ) + '<br />' +  photo.description, photo_path(:user => @user.login, :id => photo) ) %></li>
+	    <% end %>
+        </ul>
+    <% end %>
+
+<% content_for :sidebar do %>
+<h1 class="section_header">Gallery Description<h1>
+    <p><%= @gallery.description %></p>
+    <% if show_admin_menu %>
+    <hr />
+        <% form_for(:photo, :url => photos_path(:user => current_user.login), :html => { :multipart => true }) do |f| -%>
+            <label for="photo_uploaded_data">Upload New Photo:</label>
+            <%= f.file_field :uploaded_data, "size" => 15 %>
+
+            <label for="photo_uploaded_data">Describe Photo:</label><br />
+            <%= f.text_field :description, "size" => 25 %>
+            <%= f.hidden_field :gallery_id, :value => @gallery.id %>
+
+            <%= submit_tag 'Upload Photo' %>
+        <% end -%>
+    <% end %>
+<% end %>

@@ -1,0 +1,20 @@
+<div class="blog">
+    <h1 class="section_header"><%= @post.headline %><h1>     
+    <%= @post.body %>
+    <p><span class="added">written on <%= @post.created_at.to_s(:long) %></span></p>
+    <hr />
+    <% if show_admin_menu %>
+        <%= link_to 'Edit This Post', edit_post_path(:user => @user.login, :id => @post) %><br />
+        <%= link_to 'Destroy This Post', post_path(:user => @user.login, :id => @post), :confirm => 'Are you sure?', :method => :delete %>
+    <% end %>
+</div>
+
+<% content_for :sidebar do %>
+	<div class='about'>
+    	<h1 class="section_header">About Me</h1>
+    	<p><%= @user.detail.headline %></p>
+        <p><%= image_tag show_avatar %></p>
+    	<p><%= @user.detail.about_me %></p>
+    	<p><%= link_to '[Learn More About Me]', showprofile_path(:user => @user.login) %></p>	
+    </div>
+<% end %>

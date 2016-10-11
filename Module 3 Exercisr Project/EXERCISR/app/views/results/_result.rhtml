@@ -1,0 +1,8 @@
+<tr> 
+  <td><%=h result.date.to_s(:long) %></td> 
+  <td><%=h result.value %></td> 
+  <td><%=link_to image_tag("edit_photo.gif", {:title => "Edit Result Details"}), edit_result_path(@goal, result) %></td> 
+  <td><%= link_to image_tag("delete_photo.gif", {:title => "Delete Result"}), result_path(@goal, result), 
+                                                 :confirm => 'Are you sure?', 
+                                                 :method => :delete %></td> 
+</tr> 

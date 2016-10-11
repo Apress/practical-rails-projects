@@ -1,0 +1,8 @@
+<h1>New workout</h1> 
+<%= error_messages_for :workout %> 
+
+<% form_for(:workout, :url => workouts_path) do |f| %> 
+   <%= render :partial => 'form', :locals => {:f => f} %> 
+<% end %> 
+
+<%= link_to 'Back', workouts_path %>

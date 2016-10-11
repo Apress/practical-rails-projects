@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/stylesheets/rss.css"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Alanna's Site: Links</title>
+    <link>http://www.alannathornton.com/articles/2006/10/24/links</link>
+    <language>en-us</language>
+    <ttl>40</ttl>
+    <description></description>
+    <item>
+      <title>Links</title>
+      <description>&lt;p&gt;Here are a few links to some websites of friends and people that I love.  Check them out!&lt;/p&gt;
+
+
+	&lt;p&gt;My favorite band, &lt;a href="www.waterdeep.com"&gt;Waterdeep&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;My friend, &lt;a href="www.jamesclayband.com"&gt;James Clay&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;My friends, &lt;a href="www.empyrealworship.com"&gt;Mark &amp;#38; Mindy Collum&lt;/a&gt; (I recorded flute on their latest CD)&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.christomlin.com"&gt;Chris Tomlin&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.jasonupton.com"&gt;Jason Upton&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.relevantmagazine.com"&gt;A great online magazine&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="www.cfni.org"&gt;My alma mater&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 24 Oct 2006 20:04:00 -0400</pubDate>
+      <guid isPermaLink="false">urn:uuid:8336dfb6-dcc7-4dee-89aa-7c578b1e5d31</guid>
+      <author>Alanna</author>
+      <link>http://www.alannathornton.com/articles/2006/10/24/links</link>
+    </item>
+  </channel>
+</rss>

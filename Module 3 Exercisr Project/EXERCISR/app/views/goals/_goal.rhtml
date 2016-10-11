@@ -1,0 +1,13 @@
+<tr> 
+  <td><%=h goal.name %></td> 
+  <td> </td> 
+  <td><%= link_to image_tag("display.gif", {:title => "View Report"}), goal_path(goal) %></td> 
+  <td><%=link_to image_tag("edit_photo.gif", {:title => "Edit Goal Details"}), edit_goal_path(goal) %></td> 
+  <td><%= link_to image_tag("delete_photo.gif", {:title => "Delete Goal"}), goal_path(goal), 
+                                                 :confirm => 'Are you sure?', 
+                                                 :method => :delete %> </td> 
+  <td><%= sparkline_tag (goal.results.collect {|g| g.value}), 
+                          :type => 'smooth', :height => '20',
+                          :step => 10, :line_color => 'black'  %></td>
+      <!--Note -  modified the step value from what was in the book because I like the look of the longer graphs  -->
+</tr> 

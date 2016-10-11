@@ -1,0 +1,95 @@
+<%= ext_layout('Edit News Post') %>
+
+<div id="content">
+  <div id="activated">
+     <label for="post_Active" style="display: inline; margin-right: 5px;">Active on Site?</label>
+      <%= in_place_checkbox :post, :Active, :checked => true, :unchecked => false %>
+  </div>
+  <div id="edit_form">
+    <script type="text/javascript" charset="utf-8">
+      Ext.onReady(function(){
+
+        Ext.form.Field.prototype.msgTarget = 'side';
+
+        var post = new Ext.form.Form({
+          labelAlign: 'top',
+          url:'<%= post_url(@post) %>'
+        });
+        post.add(
+          post.fieldset(
+              {legend:'Edit News Post'},
+                new Ext.form.TextField({
+                    fieldLabel: 'Headline',
+                    name: 'post[Headline]',
+                    growMin:225,
+                    allowBlank:false,
+                    grow: true,
+                    value:"<%= @post.Headline.gsub("\n", "").gsub('"', '\"').gsub("'", "\'").gsub("\r", "") %>"
+                  }),
+
+                new Ext.form.TextField({
+                    fieldLabel: 'FrontPage',
+                    name: 'post[FrontPage]',
+                    width:225,
+                    allowBlank:false,
+                    maxLength:26,
+                    value:"<%= @post.FrontPage.gsub("\n", "").gsub('"', '\"').gsub("'", "\'").gsub("\r", "") %>"
+                  }),
+
+                new Ext.form.HtmlEditor({
+                  id:'Body',
+                  fieldLabel:'Body',
+                  name: 'post[Body]',
+                  enableFont: false,
+                  value: "<%= @post.Body.gsub("\n", "").gsub('"', '\"').gsub("'", "\'").gsub("\r", "") %>",
+                  width:750,
+                  height:200
+                })
+          )     
+        );
+
+        post.addButton('Save', function(){
+          if(post.isValid()){
+            post.submit({
+              params:{
+                action: "update",
+                _method: "put",
+                commit:"Save",
+                id: <%= @post.id %>
+              }, waitMsg:'Saving News Post Now...'
+            });
+          } else {
+            Ext.MessageBox.alert('Errors', 'Please fix the errors noted.');
+          }
+        }, post);
+
+        post.render('edit_form');      
+        });
+  </script>
+  </div>
+
+  <div id="add_game_associations">
+     <label>Associated Games</label>
+     <% form_for :post, :url => { :action => "associate", :id => @post } do |f| %>
+          <ul>
+         <% @post.games.each do |g| %>
+              <li><%= check_box_tag 'post[game_ids][]', g.id, 1 %><%= "#{g.Title} (#{g.Console})" %></li>
+         <% end %>
+         <div id="results"></div>
+         </ul>						
+         <%= submit_tag 'Associate' %>
+      <% end %>
+
+      
+      <label>Add Games to Associate </label>
+      <% form_remote_tag :url => '/games/search', :html => {:id => "search"} do -%>
+            Search: <input type="text" id="search_form" name="search" />
+            <%= submit_tag 'Search' %>
+      <% end -%>
+
+      
+  </div>
+  
+  
+
+</div>
